@@ -1,18 +1,18 @@
 Package: obsidian
 Architecture: amd64
-Version: 1.9.14
+Version: 1.10.3
 Priority: optional
 Section: default
 Maintainer: Dynalist Inc.
-Installed-Size: 316084
+Installed-Size: 315073
 Depends: libgtk-3-0, libnotify4, libnss3, libxss1, libxtst6, xdg-utils, libatspi2.0-0, libuuid1, libsecret-1-0
 Recommends: libappindicator3-1
-Filename: https://github.com/obsidianmd/obsidian-releases/releases/download/v1.9.14/obsidian_1.9.14_amd64.deb
-Size: 86502322
-MD5sum: fd358229bb19667c5d05550e29e5f575
-SHA1: 107d9a609c02b9fd59620b91d474e3a6a2dc1efe
-SHA256: d1ad758b1977a34ff7d0c906f11e0e88aa0a940fa4a22b83d357dab8ddd32d37
-SHA512: 9144918b8451f284cf3ee84a55e1eb5b84290a775d22f32ae1e23a7f520f8d268c65fe5491d83be03d464d68b2118c2c8b89f7bd32e413752ea3506d5bcfcb7b
+Filename: https://github.com/obsidianmd/obsidian-releases/releases/download/v1.10.3/obsidian_1.10.3_amd64.deb
+Size: 86311760
+MD5sum: 1fb8613a5a24e9b36c5f82df5dfb3ff4
+SHA1: dfe8fcb77f6f70e3ec4a6d079e7728599af49c34
+SHA256: c2745551c3f4113d96625491060f320c57d315905541ff0e30a694dbe3a9b39c
+SHA512: 0263fb48d1972454cb716e039cc21a19bf0f80b34c541a8dd1eedf7b87df668a1e0c52cdc87eead4f05353c2677cc157e3026c16f8a6317308a09ace53b7ef61
 Homepage: https://obsidian.md
 Description: 
   Obsidian
