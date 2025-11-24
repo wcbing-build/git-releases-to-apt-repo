@@ -34,6 +34,7 @@
 | [YesPlayMusic](https://github.com/qier222/YesPlayMusic) | yesplaymusic | ✅ | ✅ |
 | [Sparkle](https://github.com/xishang0128/sparkle) | sparkle | ✅ | ✅ |
 | [Hoppscotch](https://github.com/hoppscotch/releases) | hoppscotch | ✅ | |
+| [Dust](https://github.com/bootandy/dust) | du-dust | ✅ | |
 
 #### Gitee
 

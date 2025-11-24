@@ -183,5 +183,11 @@
         "file_list": {
             "amd64": "Hoppscotch_linux_x64.deb"
         }
+    },
+    "du-dust": {
+        "repo": "bootandy/dust",
+        "file_list": {
+            "amd64": "du-dust_{version}-1_amd64.deb"
+        }
     }
 }
