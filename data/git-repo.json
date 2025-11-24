@@ -203,5 +203,12 @@
             "amd64": "rclone-{releases_tag}-linux-amd64.deb",
             "arm64": "rclone-{releases_tag}-linux-arm64.deb"
         }
+    },
+    "bat": {
+        "repo": "sharkdp/bat",
+        "file_list": {
+            "amd64": "bat_{version}_amd64.deb",
+            "arm64": "bat_{version}_arm64.deb"
+        }
     }
 }
