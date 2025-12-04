@@ -1,0 +1,19 @@
+Package: musicfree
+Architecture: amd64
+Version: 0.0.8
+Priority: optional
+Section: utils
+Maintainer: 猫头猫 <lhx_xjtu@163.com>
+Installed-Size: 272778
+Depends: libgtk-3-0, libnotify4, libnss3, libxtst6, xdg-utils, libatspi2.0-0, libdrm2, libgbm1, libxcb-dri3-0, kde-cli-tools | kde-runtime | trash-cli | libglib2.0-bin | gvfs-bin
+Recommends: pulseaudio | libasound2
+Suggests: gir1.2-gnomekeyring-1.0, libgnome-keyring0, lsb-release
+Filename: https://github.com/maotoumao/MusicFreeDesktop/releases/download/v0.0.8/MusicFree-0.0.8-linux-amd64.deb
+Size: 82971220
+MD5sum: fb678c2d7e5d07f7ff05d76ee381974e
+SHA1: a40ec8a6808afd9effd700e5b03d7b9739478255
+SHA256: fb5a5c9307d76056870ec8b51a7213cbae0f1a3a5c25a9af84bf5c81e98aec7d
+SHA512: b44ae58d6988f14a7548eb5f05e98284a523e4604f551ef1bbe7afb464518766ec5e0d14177932b57cec6bea2e1e475d28f380bc83dcb2a4e9f21f4ae16f3e2a
+Description: 一个插件化的音乐播放器
+ 一个插件化的音乐播放器
+

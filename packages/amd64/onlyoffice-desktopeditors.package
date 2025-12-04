@@ -1,0 +1,23 @@
+Package: onlyoffice-desktopeditors
+Architecture: amd64
+Version: 9.2.0-100
+Priority: optional
+Section: editors
+Maintainer: Ascensio System SIA <support@onlyoffice.com>
+Installed-Size: 1214546
+Provides: onlyoffice-desktopeditors
+Pre-Depends: dpkg (>= 1.14.0)
+Depends: x11-common, libasound2, curl | wget, desktop-file-utils, gstreamer1.0-libav, gstreamer1.0-plugins-ugly, libxss1, libatk1.0-0, libgtk-3-0, libcairo2, libstdc++6 (>= 4.8), libxkbcommon-x11-0, libnotify4, fonts-dejavu | ttf-dejavu, fonts-liberation, fonts-crosextra-carlito, xdg-utils
+Recommends: ttf-mscorefonts-installer, fonts-takao-gothic
+Suggests: onlyoffice-desktopeditors-help
+Conflicts: onlyoffice-desktopeditors-enterprise
+Filename: https://github.com/ONLYOFFICE/DesktopEditors/releases/download/v9.2.0/onlyoffice-desktopeditors_amd64.deb
+Size: 419978216
+MD5sum: 3ab7746d573b70b1d5abbc4877257451
+SHA1: 66ee57852712c05a3b34f72a762c504abc68813b
+SHA256: 1dbda5db273673c19803609ff738dbe3afc086c680097c76f611771ad377f2c7
+SHA512: 4f1ec3d769842c73e7d6ba205526619d9463bbcf205301acb0c2de594cb360b8c561b1a1b67ed7c92c50859983f61ea95fbcac390ed52880ebd38a2a83b67027
+Description: Desktop editors for text docs, spreadsheets, presentations, PDFs, and PDF forms.
+ Open-source office suite pack that comprises all the tools you need to
+ work offline with documents, spreadsheets, presentations, PDFs, and PDF forms.
+

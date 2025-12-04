@@ -1,0 +1,21 @@
+Package: zyfun
+Architecture: amd64
+Version: 3.4.0
+Priority: optional
+Section: default
+Maintainer: zyfun team
+Installed-Size: 367135
+Depends: libgtk-3-0, libnotify4, libnss3, libxss1, libxtst6, xdg-utils, libatspi2.0-0, libuuid1, libsecret-1-0
+Recommends: libappindicator3-1
+Filename: https://github.com/Hiram-Wong/ZyPlayer/releases/download/v3.4.0/zyfun-linux-3.4.0-amd64.deb
+Size: 93340628
+MD5sum: 60d7b06e3b311ad68aa2eebac4eb5657
+SHA1: c73e88df0c6b6045cf126afe9f39f8e303982a61
+SHA256: c4722095a9c8c627123a40bd68fb940059e4baa299eac7c6113293647f4ac09e
+SHA512: 0175545c2ff4377aa83fbd878d1d0857da04c69234d733b70adf8fe3feadafafd896d83e9b6efa13a0cc1f4af04fce89f80ff776f00ddb32aa238ac9e86f055f
+Homepage: https://github.com/Hiram-Wong/ZyPlayer#readme
+Description: 
+  zyfun client
+License: MIT
+Vendor: zyfun team
+

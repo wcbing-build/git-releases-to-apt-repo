@@ -1,0 +1,16 @@
+Package: pdfsam-basic
+Architecture: all
+Version: 5.4.1-1
+Priority: optional
+Section: utils
+Maintainer: Andrea Vacondio <info@pdfsam.org>
+Installed-Size: 124707
+Filename: https://github.com/torakiki/pdfsam/releases/download/v5.4.1/pdfsam-basic_5.4.1-1_amd64.deb
+Size: 98764032
+MD5sum: 4d559798066e4aa7f29cbbef9ab3b3f3
+SHA1: 398a7cc017ec9e993155dde9575e97e9b8282fdc
+SHA256: 88cd1abc2d18c31681da9ad66e228967d17377f1dc7435898392164663655643
+SHA512: 094218c299868765ac7eb32d49ca22f52d734677ddb7c854b033f416bfba6c1f13741b97b547d67d8c080df6364a154972e567e9af00def9ff07d9c475052d1b
+Homepage: https://pdfsam.org
+Description: Open source desktop application to split, merge, rotate, extract pages and mix PDF files.
+

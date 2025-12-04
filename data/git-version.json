@@ -32,5 +32,16 @@
     "fastfetch": "2.55.1",
     "bat": "0.26.1",
     "rclone": "1.72.0",
-    "bottom": "0.11.4"
+    "bottom": "0.11.4",
+    "trippy": "0.13.0",
+    "codium": "1.106.37943",
+    "venera": "1.6.1",
+    "siyuan": "3.4.2",
+    "koodo-reader": "2.2.3",
+    "uotantoolbox": "3.3.5",
+    "balena-etcher": "2.1.4",
+    "pdfsam-basic": "5.4.1",
+    "zyfun": "3.4.0",
+    "musicfree": "0.0.8",
+    "onlyoffice-desktopeditors": "9.2.0"
 }

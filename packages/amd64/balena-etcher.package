@@ -1,0 +1,23 @@
+Package: balena-etcher
+Architecture: amd64
+Version: 2.1.4
+Priority: optional
+Section: utils
+Maintainer: Balena Ltd. <hello@balena.io>
+Installed-Size: 419898
+Depends: libgtk-3-0, libnotify4, libnss3, libxtst6, xdg-utils, libatspi2.0-0, libdrm2, libgbm1, libxcb-dri3-0, kde-cli-tools | kde-runtime | trash-cli | libglib2.0-bin | gvfs-bin, libasound2, libatk1.0-0, libc6, libcairo2, libcups2, libdbus-1-3, libexpat1, libfontconfig1, libfreetype6, libgcc1, libgdk-pixbuf2.0-0, libglib2.0-0, liblzma5, libnspr4, libpango1.0-0 | libpango-1.0-0, libstdc++6, libx11-6, libxcomposite1, libxcursor1, libxdamage1, libxext6, libxfixes3, libxi6, libxrandr2, libxrender1, libxss1, polkit-1-auth-agent | policykit-1-gnome | polkit-kde-1
+Recommends: pulseaudio | libasound2
+Suggests: gir1.2-gnomekeyring-1.0, libgnome-keyring0, lsb-release
+Filename: https://github.com/balena-io/etcher/releases/download/v2.1.4/balena-etcher_2.1.4_amd64.deb
+Size: 123924010
+MD5sum: a6e447ec4d343c1e63d5d031992f2ff0
+SHA1: 1bc00364e107eb67aa1e12079f3eeca575c9d07c
+SHA256: c635213bb0724eb789bc036819cd1adb7d0693fd3bd26622811a8f7bd25e9252
+SHA512: e3a9a1c51409092fb8a182f8ed4eed214ef4f3217d7d078d40ec54c0f20795848fb18e80b02f5c0816bbbc09221cba4cdb3307744f8e01ea85ad3fada13f131f
+Homepage: https://github.com/balena-io/etcher
+Description: Flash OS images to SD cards and USB drives, safely and easily.
+ Etcher is a powerful OS image flasher built with web technologies to ensure 
+ flashing an SDCard or USB drive is a pleasant and safe experience. It protects 
+ you from accidentally writing to your hard-drives, ensures every byte of data 
+ was written correctly and much more.
+
