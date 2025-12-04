@@ -43,5 +43,6 @@
     "pdfsam-basic": "5.4.1",
     "zyfun": "3.4.0",
     "musicfree": "0.0.8",
-    "onlyoffice-desktopeditors": "9.2.0"
+    "onlyoffice-desktopeditors": "9.2.0",
+    "grpcurl": "1.9.3"
 }

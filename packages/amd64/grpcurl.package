@@ -1,0 +1,15 @@
+Package: grpcurl
+Architecture: amd64
+Version: 1.9.3
+Priority: optional
+Maintainer: Engineering at Fullstory  <fixme@fixme>
+Installed-Size: 23992
+Filename: https://github.com/fullstorydev/grpcurl/releases/download/v1.9.3/grpcurl_1.9.3_linux_amd64.deb
+Size: 7939886
+MD5sum: 20e3b95fb4f968965ed241946ed18f3c
+SHA1: 8535c49ed19e2589b446bc3619b93ca62ae14fb5
+SHA256: 0710dc05a28f1fac2230fd438c1fc61b90e0431809372a65aea4b53a57947451
+SHA512: eff273f0a4247a962822be70b9c94ff63c757627d997e9cd4d1b80bbd9d5be346f334cb8471557310eefdc4e0c2013d2e87aba8875b1063b71f05e1103e0bcb5
+Homepage: https://github.com/fullstorydev/grpcurl/
+Description: Like cURL, but for gRPC: Command-line tool for interacting with gRPC servers
+
