@@ -23,6 +23,7 @@
 | [Hiddify](https://github.com/hiddify/hiddify-app) | hiddify | ✅ | |
 | [Cloudflare Tunnel](https://github.com/cloudflare/cloudflared) | cloudflared | ✅ | ✅ |
 | [Caddy](https://github.com/caddyserver/caddy) | caddy | ✅ | ✅ |
+| [VSCodium](https://github.com/VSCodium/vscodium) | codium | ✅ | ✅ |
 | [code-server](https://github.com/coder/code-server) | code-server | ✅ | ✅ |
 | [DBeaver](https://github.com/dbeaver/dbeaver) | dbeaver-ce | ✅ | |
 | [Flameshot](https://github.com/flameshot-org/flameshot) | flameshot | ✅ | |
