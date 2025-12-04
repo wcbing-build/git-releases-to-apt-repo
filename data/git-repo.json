@@ -255,5 +255,12 @@
         "file_list": {
             "amd64": "onlyoffice-desktopeditors_amd64.deb"
         }
+    },
+    "venera": {
+        "repo": "venera-app/venera",
+        "file_list": {
+            "amd64": "venera_{version}_amd64.deb",
+            "arm64": "venera_{version}_arm64.deb"
+        }
     }
 }
