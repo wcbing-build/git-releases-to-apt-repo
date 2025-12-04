@@ -301,5 +301,12 @@
         "file_list": {
             "amd64": "MusicFree-{version}-linux-amd64.deb"
         }
+    },
+    "grpcurl": {
+        "repo": "fullstorydev/grpcurl",
+        "file_list": {
+            "amd64": "grpcurl_{version}_linux_amd64.deb",
+            "arm64": "grpcurl_{version}_linux_arm64.deb"
+        }
     }
 }
