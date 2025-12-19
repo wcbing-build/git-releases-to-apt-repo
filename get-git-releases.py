@@ -17,7 +17,7 @@ CONFIG = {
     "thread": 5,
     "dry_run": False,
 }
-version_lock = threading.Lock()
+tag_lock = threading.Lock()
 # 日志等级，若需要展示每次请求结果请使用 INFO 等级
 logging.basicConfig(level=logging.INFO)
 
@@ -42,6 +42,18 @@ def latest_releases_tag(repo_url: str) -> str:
     except requests.RequestException as e:
         logging.error(e)
         return ""
+
+
+def format_release_filename(template: str, releases_tag: str) -> str:
+    # https://www.debian.org/doc/manuals/debmake-doc/ch06.zh-cn.html#name-version
+    # 参考文档中 Upstream version 正则表达式获取版本号，即从第一个数字开始。
+    vpattern = "[0-9][-+.:~a-z0-9A-Z]*"
+    version = match.group() if (match := re.search(vpattern, releases_tag)) else ""
+
+    return template.format(
+        releases_tag=releases_tag,  # 若存在则用完整 tag 替换
+        version=version,  # 若存在则用 version 替换
+    )
 
 
 # 下载文件
@@ -84,7 +96,7 @@ def scan(name, arch, url, file_path) -> bool:
 
 
 # 检查版本并下载新版本文件
-def check(name: str, repo: dict, version_list: dict) -> None:
+def check(name: str, repo: dict, tag_list: dict) -> None:
     if "site" in repo:
         repo_url = os.path.join(repo["site"], repo["repo"])
     else:
@@ -96,62 +108,55 @@ def check(name: str, repo: dict, version_list: dict) -> None:
         return
     logging.info(f"{name} = {releases_tag}")
 
-    # https://www.debian.org/doc/manuals/debmake-doc/ch06.zh-cn.html#name-version
-    # 参考文档中 Upstream version 正则表达式获取版本号，即从第一个数字开始。
-    vpattern = "[0-9][-+.:~a-z0-9A-Z]*"
-    version = match.group() if (match := re.search(vpattern, releases_tag)) else ""
-
     # 判断是否需要更新
-    local_version = version_list.get(name, "")
-    if not version or local_version == version:
+    local_tag = tag_list.get(name, "")
+    if not releases_tag or local_tag == releases_tag:
         return
 
     name = repo["package_name"] if "package_name" in repo else name
-    for arch, file_template in repo["file_list"].items():
+    for arch, template in repo["file_list"].items():
         # 确定本地文件目录并确保目录存在
         app_dir = os.path.join(CONFIG["deb_dir"], name)
         os.makedirs(app_dir, exist_ok=True)
-        # 拼接得到 Releases 中的文件名
-        release_filename = file_template.format(
-            releases_tag=releases_tag,  # 若存在则用完整 tag 替换
-            version=version,  # 若存在则用 version 替换
-        )
+        # 得到 Releases 中的文件名
+        release_filename = format_release_filename(template, releases_tag)
         url = f"{repo_url}/releases/download/{releases_tag}/{release_filename}"
-        filename = f"{name}_{version}_{arch}.deb"  # 格式化后的文件名
-        file_path = os.path.join(app_dir, filename)
+        file_path = os.path.join(app_dir, release_filename)
 
         # download and scan
-        logging.info(f"Downloading {name}:{arch} ({version})")
+        logging.info(f"Downloading {name}:{arch} ({releases_tag})")
         os.makedirs(os.path.join(CONFIG["deb_dir"], arch), exist_ok=True)
         if not download(url, file_path):
             continue
-        logging.info(f"Downloaded {name}:{arch} ({version})")
+        logging.info(f"Downloaded {name}:{arch} ({releases_tag})")
         os.makedirs(os.path.join(CONFIG["packages_dir"], arch), exist_ok=True)
         if not scan(name, arch, url, file_path):
             continue
         # 判断是否是新添加应用
-        if local_version == "":
-            print(f"AddNew: {name}:{arch} ({version})")
+        if local_tag == "":
+            print(f"AddNew: {name}:{arch} ({releases_tag})")
         else:
-            print(f"Update: {name}:{arch} ({local_version} -> {version})")
+            print(f"Update: {name}:{arch} ({local_tag} -> {releases_tag})")
             # 删除旧版本文件
-            old_file_path = os.path.join(app_dir, f"{name}_{local_version}_{arch}.deb")
+            old_file_path = os.path.join(
+                app_dir, format_release_filename(template, local_tag)
+            )
             if os.path.exists(old_file_path):
                 os.remove(old_file_path)
         # 更新版本号
-        with version_lock:
-            version_list[name] = version
+        with tag_lock:
+            tag_list[name] = releases_tag
 
 
 if __name__ == "__main__":
     git_repo_list = read_json("git-repo.json")
-    version_list = read_json("git-version.json")
+    tag_list = read_json("git-tag.json")
     with ThreadPoolExecutor(max_workers=CONFIG["thread"]) as executor:
         tasks = [
-            executor.submit(check, name, repo, version_list)
+            executor.submit(check, name, repo, tag_list)
             for name, repo in git_repo_list.items()
         ]
         wait(tasks)
-    # 保存到 git-version.json
-    with open(os.path.join(CONFIG["data_dir"], "git-version.json"), "w") as f:
-        json.dump(version_list, f, indent=4)
+    # 保存到 git-tag.json
+    with open(os.path.join(CONFIG["data_dir"], "git-tag.json"), "w") as f:
+        json.dump(tag_list, f, indent=4)
