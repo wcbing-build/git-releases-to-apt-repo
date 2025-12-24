@@ -42,10 +42,10 @@
     },
     "draw.io": {
         "repo": "jgraph/drawio-desktop",
-        "file_list": [
-            "drawio-amd64-{version}.deb",
-            "drawio-arm64-{version}.deb"
-        ]
+        "file_list": {
+            "amd64": "drawio-amd64-{version}.deb",
+            "arm64": "drawio-arm64-{version}.deb"
+        }
     },
     "tabby-terminal": {
         "repo": "Eugeny/tabby",
