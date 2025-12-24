@@ -14,6 +14,7 @@
 | [hugo](https://github.com/gohugoio/hugo) | hugo | ✅ | ✅ |
 | [RustDesk](https://github.com/rustdesk/rustdesk) | rustdesk | ✅ | ✅ |
 | [Obsidian](https://github.com/obsidianmd/obsidian-releases) | obsidian | ✅ | |
+| [draw.io](https://github.com/jgraph/drawio-desktop) | draw.io | ✅ | ✅ |
 | [Foliate](https://github.com/johnfactotum/foliate) | foliate |  ✅ | ✅ |
 | [Tabby](https://github.com/Eugeny/tabby) | tabby-terminal | ✅ | ✅ |
 | [Pandoc](https://github.com/jgm/pandoc) | pandoc | ✅ | ✅ |
@@ -54,6 +55,8 @@
 | [PDFsam Basic](https://github.com/torakiki/pdfsam) | pdfsam-basic | ✅ | |
 | [MusicFree](https://github.com/maotoumao/MusicFreeDesktop) | musicfree | ✅ | |
 | [gRPCurl](https://github.com/fullstorydev/grpcurl) | grpcurl | ✅ | ✅ |
+| [TinyGo](https://github.com/tinygo-org/tinygo) | tinygo | ✅ | ✅ |
+| [chezmoi](https://github.com/twpayne/chezmoi) | chezmoi | ✅ | ✅ |
 
 
 ### Gitee

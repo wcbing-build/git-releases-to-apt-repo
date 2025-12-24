@@ -40,6 +40,13 @@
             "amd64": "obsidian_{version}_amd64.deb"
         }
     },
+    "draw.io": {
+        "repo": "jgraph/drawio-desktop",
+        "file_list": [
+            "drawio-amd64-{version}.deb",
+            "drawio-arm64-{version}.deb"
+        ]
+    },
     "tabby-terminal": {
         "repo": "Eugeny/tabby",
         "file_list": {
@@ -308,5 +315,19 @@
             "amd64": "grpcurl_{version}_linux_amd64.deb",
             "arm64": "grpcurl_{version}_linux_arm64.deb"
         }
+    },
+    "tinygo": {
+        "repo": "tinygo-org/tinygo",
+        "file_list": {
+            "amd64": "tinygo_{version}_amd64.deb",
+            "arm64": "tinygo_{version}_arm64.deb"
+        }
+    },
+    "chezmoi": {
+        "repo": "twpayne/chezmoi",
+        "file_list": [
+            "chezmoi_{version}_linux_amd64.deb",
+            "chezmoi_{version}_linux_arm64.deb"
+        ]
     }
 }
