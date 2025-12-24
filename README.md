@@ -58,6 +58,7 @@
 | [TinyGo](https://github.com/tinygo-org/tinygo) | tinygo | ✅ | ✅ |
 | [chezmoi](https://github.com/twpayne/chezmoi) | chezmoi | ✅ | ✅ |
 | [Cherry Studio](https://github.com/CherryHQ/cherry-studio) | cherrystudio | ✅ | ✅ |
+| [Systemd manager tui](https://github.com/matheus-git/systemd-manager-tui) | systemd-manager-tui | ✅ | ✅ |
 
 
 ### Gitee

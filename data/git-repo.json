@@ -336,5 +336,12 @@
             "amd64": "Cherry-Studio-{version}-amd64.deb",
             "arm64": "Cherry-Studio-{version}-arm64.deb"
         }
+    },
+    "systemd-manager-tui": {
+        "repo": "matheus-git/systemd-manager-tui",
+        "file_list": {
+            "amd64": "systemd-manager-tui_{version}_amd64.deb",
+            "arm64": "systemd-manager-tui_{version}_arm64.deb"
+        }
     }
 }
