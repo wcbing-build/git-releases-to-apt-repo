@@ -47,5 +47,6 @@
     "grpcurl": "v1.9.3",
     "systemd-manager-tui": "v1.2.0",
     "cherrystudio": "v1.7.6",
-    "tinygo": "v0.40.1"
+    "tinygo": "v0.40.1",
+    "draw.io": "v29.0.3"
 }
