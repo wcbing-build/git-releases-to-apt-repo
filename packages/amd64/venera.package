@@ -1,15 +1,15 @@
 Package: venera
 Architecture: amd64
-Version: 1.6.1
+Version: 1.6.2
 Priority: optional
 Essential: no
 Maintainer: nyne
 Depends: libwebkit2gtk-4.1-0, libgtk-3-0
-Filename: https://github.com/venera-app/venera/releases/download/v1.6.1/venera_1.6.1_amd64.deb
-Size: 18963554
-MD5sum: 74c063b8f536c7a2d3036a247c503c41
-SHA1: 8dd5ca09463e444bc6d1ec638f23199f61ea2586
-SHA256: add0fafe9dad695064f7d0cd056881f7aa4198bb8228a525e374f70d0e1f9a57
-SHA512: 2d06c7efa50b3db9fb9525c6ebc5e630d784ad8d77e24201e6395e3afaa3ea345ac4e8d7224624f3ccc90235905978b837cc5571eff8144acd69aca5419eec49
+Filename: https://github.com/venera-app/venera/releases/download/v1.6.2/venera_1.6.2_amd64.deb
+Size: 19008706
+MD5sum: fbf9c20c455ce24e8afbbe7d6409454b
+SHA1: c6a1ee98dc49002bcdc8e61bd8ecaba7154ab5cc
+SHA256: b95880aff16f9e19e81b2d17885923aae00bb679223723827315c0ed4e269620
+SHA512: 87216be052852931eeeda1c40e8357bab80785baf7c3e2622dff97733104051c01681ea19b24f14511ca3f19dd2074912e1da7645063ede90c03f4d31435851a
 Description: venera
 
