@@ -61,6 +61,7 @@
 | [Systemd manager tui](https://github.com/matheus-git/systemd-manager-tui) | systemd-manager-tui | ✅ | ✅ |
 | [Ulauncher](https://github.com/Ulauncher/Ulauncher) | ulauncher | ✅ | ✅ |
 | [Yazi](https://github.com/sxyazi/yazi) | yazi | ✅ | ✅ |
+| [BongoCat](https://github.com/ayangweb/BongoCat) | bongo-cat | ✅ | ✅ |
 
 
 ### Gitee

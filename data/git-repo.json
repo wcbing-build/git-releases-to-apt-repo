@@ -357,5 +357,12 @@
             "amd64": "yazi-x86_64-unknown-linux-musl.deb",
             "arm64": "yazi-aarch64-unknown-linux-musl.deb"
         }
+    },
+    "bongo-cat": {
+        "repo": "ayangweb/BongoCat",
+        "file_list": {
+            "amd64": "BongoCat_{version}_amd64.deb",
+            "arm64": "BongoCat_{version}_arm64.deb"
+        }
     }
 }
