@@ -344,5 +344,11 @@
             "amd64": "systemd-manager-tui_{version}_amd64.deb",
             "arm64": "systemd-manager-tui_{version}_arm64.deb"
         }
+    },
+    "ulauncher": {
+        "repo": "Ulauncher/Ulauncher",
+        "file_list": {
+            "all": "ulauncher_{version}_all.deb"
+        }
     }
 }
