@@ -60,6 +60,7 @@
 | [Cherry Studio](https://github.com/CherryHQ/cherry-studio) | cherrystudio | ✅ | ✅ |
 | [Systemd manager tui](https://github.com/matheus-git/systemd-manager-tui) | systemd-manager-tui | ✅ | ✅ |
 | [Ulauncher](https://github.com/Ulauncher/Ulauncher) | ulauncher | ✅ | ✅ |
+| [Yazi](https://github.com/sxyazi/yazi) | yazi | ✅ | ✅ |
 
 
 ### Gitee

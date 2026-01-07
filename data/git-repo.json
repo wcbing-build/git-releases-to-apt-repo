@@ -350,5 +350,12 @@
         "file_list": {
             "all": "ulauncher_{version}_all.deb"
         }
+    },
+    "yazi": {
+        "repo": "sxyazi/yazi",
+        "file_list": {
+            "amd64": "yazi-x86_64-unknown-linux-musl.deb",
+            "arm64": "yazi-aarch64-unknown-linux-musl.deb"
+        }
     }
 }
