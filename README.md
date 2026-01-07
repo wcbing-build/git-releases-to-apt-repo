@@ -62,6 +62,7 @@
 | [Ulauncher](https://github.com/Ulauncher/Ulauncher) | ulauncher | ✅ | ✅ |
 | [Yazi](https://github.com/sxyazi/yazi) | yazi | ✅ | ✅ |
 | [BongoCat](https://github.com/ayangweb/BongoCat) | bongo-cat | ✅ | ✅ |
+| [ClassIsland](https://github.com/ClassIsland/ClassIsland) | cn.classisland.app | ✅ | ✅ |
 
 
 ### Gitee

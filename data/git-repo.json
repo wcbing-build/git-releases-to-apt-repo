@@ -364,5 +364,12 @@
             "amd64": "BongoCat_{version}_amd64.deb",
             "arm64": "BongoCat_{version}_arm64.deb"
         }
+    },
+    "cn.classisland.app": {
+        "repo": "ClassIsland/ClassIsland",
+        "file_list": {
+            "amd64": "ClassIsland_app_linux_x64_selfContained_deb.deb",
+            "arm64": "ClassIsland_app_linux_arm64_selfContained_deb.deb"
+        }
     }
 }
