@@ -326,10 +326,10 @@
     },
     "chezmoi": {
         "repo": "twpayne/chezmoi",
-        "file_list": [
-            "chezmoi_{version}_linux_amd64.deb",
-            "chezmoi_{version}_linux_arm64.deb"
-        ]
+        "file_list": {
+            "amd64": "chezmoi_{version}_linux_amd64.deb",
+            "arm64": "chezmoi_{version}_linux_arm64.deb"
+        }
     },
     "cherrystudio": {
         "repo": "CherryHQ/cherry-studio",
