@@ -65,6 +65,7 @@
 | [ClassIsland](https://github.com/ClassIsland/ClassIsland) | cn.classisland.app | ✅ | ✅ |
 | [Wave Terminal](https://github.com/wavetermdev/waveterm) | waveterm | ✅ | ✅ |
 | [Fresh](https://github.com/sinelaw/fresh) | fresh-editor | ✅ | ✅ |
+| [Cryptomator](https://github.com/cryptomator/cryptomator) | cryptomator | ✅ | |
 
 
 ### Gitee

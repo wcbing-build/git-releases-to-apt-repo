@@ -385,5 +385,11 @@
             "amd64": "fresh-editor_{version}-1_amd64.deb",
             "arm64": "fresh-editor_{version}-1_arm64.deb"
         }
+    },
+    "cryptomator": {
+        "repo": "cryptomator/cryptomator",
+        "file_list": {
+            "amd64": "cryptomator_{version}-0ppa1_amd64.deb"
+        }
     }
 }
