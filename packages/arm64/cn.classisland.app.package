@@ -1,19 +1,19 @@
 Package: cn.classisland.app
 Architecture: arm64
-Version: 2.0.0.1
+Version: 2.0.0.2
 Multi-Arch: foreign
 Priority: optional
 Section: utils
 Maintainer: ClassIsland
 Depends: libx11-6, libice6, libsm6, libfontconfig1, ca-certificates, tzdata, libc6, libgcc1 | libgcc-s1, libgssapi-krb5-2, libstdc++6, zlib1g, libssl1.0.0 | libssl1.0.2 | libssl1.1 | libssl3, libicu | libicu77 | libicu76 | libicu74 | libicu72 | libicu71 | libicu70 | libicu69 | libicu68 | libicu67 | libicu66 | libicu65 | libicu63 | libicu60 | libicu57 | libicu55 | libicu52
-Filename: https://github.com/ClassIsland/ClassIsland/releases/download/2.0.0.1/ClassIsland_app_linux_arm64_selfContained_deb.deb
-Size: 64390848
-MD5sum: 81039bd50dd3e60e2157ada1607bd258
-SHA1: 9366151b731c0d7bedf38d344150c16bcba17965
-SHA256: 5dcb68011630257f99ec0b656f4b1900230e04140c003ab82a23f8f513e0ca99
-SHA512: 68e5e31ee1e1decf8295839dfbd8626236fefc5ea5b20a932fe0cdc6e4ec48ccd87ca270102bd7a043e4f3c98551815def00b8f327136a833f66ffd20ed80da7
+Filename: https://github.com/ClassIsland/ClassIsland/releases/download/2.0.0.2/ClassIsland_app_linux_arm64_selfContained_deb.deb
+Size: 64387792
+MD5sum: 925abd5de05fc1fe22aa434aa7d7e4a3
+SHA1: 8e7eaba5520417ed229e2c402fb86cfd5feb6d4d
+SHA256: 5ffd8945a224121770cfd2fa961a95c148bff01bd41f9d976ca93db5bdf0743e
+SHA512: 94972698aa2b5794850ddd7dc132ba3b148b58cc9edd3ca0fba961a891e9e96012e74bd02e964bb1b381cd6586a35372314724b886f4cc38021893aba919e37f
 Homepage: https://classisland.tech
 Description: 功能强大、可定制、跨平台的大屏课表显示工具。
 Build-Depends: debhelper (>=9)
-Standards-Version: 2.0.0.1
+Standards-Version: 2.0.0.2
 
