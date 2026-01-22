@@ -1,18 +1,18 @@
 Package: yazi
 Architecture: arm64
-Version: 26.1.4-1
+Version: 26.1.22-1
 Priority: optional
 Section: utility
 Maintainer: sxyazi <sxyazi@gmail.com>
-Installed-Size: 19944
+Installed-Size: 19917
 Depends: 7zip, fd-find|fd, ffmpeg, file, fzf, imagemagick, jq, poppler-utils, ripgrep, xsel|xclip|wl-clipboard, zoxide
 Recommends: bash-completion
-Filename: https://github.com/sxyazi/yazi/releases/download/v26.1.4/yazi-aarch64-unknown-linux-musl.deb
-Size: 6114252
-MD5sum: b8717cb9638d4c8d0b5721f1fa6ff5b8
-SHA1: 3ff26755c570370e255e44b4119b52b50a5d5307
-SHA256: 95a7b6940423a3f4cf2081d0ea737a1d778cb5511756d6637311f0c2dc3f1c44
-SHA512: fc1d9e52e8dba6735cfce7b1cdccaee5609e9eb98fcbabd2d2bbcc839f8f45accbbdc84a0eafdf1683f9401431912e5594ad937f176ef239782991903914741e
+Filename: https://github.com/sxyazi/yazi/releases/download/v26.1.22/yazi-aarch64-unknown-linux-musl.deb
+Size: 6134040
+MD5sum: 8401844876ab3f0a7b921662f60a5d85
+SHA1: 07fdffc99fcf79203ff08e6fa1e5e53f8b357a6b
+SHA256: 3cbb8780e0d34fc44dc1f9a1c247c23d76b335d08809c2b2e34f69d284b9c04d
+SHA512: 61a5091c96f3762588b4d9f98a694aee0e624adbe2216bdaddc0378c357dac307241bf466df0eb29a6585ca8828dcedc4f8242949ff428922c095d3435666bb9
 Homepage: https://yazi-rs.github.io
 Description: Yazi packing
  <div align="center">
