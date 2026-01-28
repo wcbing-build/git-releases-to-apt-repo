@@ -10,7 +10,7 @@
     "peazip": "10.8.0",
     "neovim": "v0.11.5",
     "tabby-terminal": "v1.0.230",
-    "cloudflared": "2026.1.1",
+    "cloudflared": "2026.1.2",
     "foliate": "3.3.0",
     "caddy": "v2.10.2",
     "hiddify": "v2.0.5",
@@ -55,6 +55,6 @@
     "yazi": "v26.1.22",
     "cn.classisland.app": "2.0.0.2",
     "waveterm": "v0.13.1",
-    "fresh-editor": "v0.1.90",
+    "fresh-editor": "v0.1.93",
     "cryptomator": "1.18.0"
 }

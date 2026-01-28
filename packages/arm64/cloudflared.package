@@ -1,16 +1,16 @@
 Package: cloudflared
 Architecture: arm64
-Version: 2026.1.1
+Version: 2026.1.2
 Priority: optional
 Section: default
 Maintainer: Cloudflare <support@cloudflare.com>
 Installed-Size: 38422
-Filename: https://github.com/cloudflare/cloudflared/releases/download/2026.1.1/cloudflared-linux-arm64.deb
-Size: 18862528
-MD5sum: 8e7f0c2ee9140312e0b9c99c9c81b471
-SHA1: 284f2520daa24a0bc66b42952bc51cf1de229693
-SHA256: 87be6f807b350171de8995ff1926e086e531d5939b77e2edf3a42183732fd0dc
-SHA512: 181dd05156b252f0bffaad4ffe7445dbf27a6b5fd4860b3d8c4313240910d24870b971ba7a0ab796bb36bf25844969aeb01e83614f02585d63e4893b2391dfe8
+Filename: https://github.com/cloudflare/cloudflared/releases/download/2026.1.2/cloudflared-linux-arm64.deb
+Size: 18862496
+MD5sum: 5743fff251a5327b46e4186d3dfa53d0
+SHA1: 2686b5e3847c47c6859a10e6715174b1b0d22866
+SHA256: d10604452d59f2fdbb9dd46f318f04cbe8c9625aef3385dfa89561301d97a7aa
+SHA512: f8b57052dc2be5f1249e745b2f83cdd04c56c8b5b04bada106bc91409f949818d3ea7497948dfd731ba0f38fe36681e4223bc76239ab120090aec3a8dc2605c5
 Homepage: https://github.com/cloudflare/cloudflared
 Description: Cloudflare Tunnel daemon
 License: Apache License Version 2.0
