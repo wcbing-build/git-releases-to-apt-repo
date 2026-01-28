@@ -1,6 +1,6 @@
 {
     "mihomo": "v1.19.19",
-    "hugo": "v0.154.5",
+    "hugo": "v0.155.0",
     "rustdesk": "1.4.5",
     "clash-verge": "v2.4.5",
     "flclash": "v0.8.91",
@@ -55,6 +55,6 @@
     "yazi": "v26.1.22",
     "cn.classisland.app": "2.0.0.2",
     "waveterm": "v0.13.1",
-    "fresh-editor": "v0.1.93",
+    "fresh-editor": "v0.1.94",
     "cryptomator": "1.18.0"
 }
