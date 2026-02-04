@@ -5,7 +5,7 @@
     "clash-verge": "v2.4.5",
     "flclash": "v0.8.92",
     "localsend": "v1.17.0",
-    "pandoc": "3.8.3",
+    "pandoc": "3.9",
     "obsidian": "v1.11.5",
     "peazip": "10.8.0",
     "neovim": "v0.11.5",
@@ -55,6 +55,6 @@
     "yazi": "v26.1.22",
     "cn.classisland.app": "2.0.0.2",
     "waveterm": "v0.13.1",
-    "fresh-editor": "v0.1.98",
+    "fresh-editor": "v0.1.99",
     "cryptomator": "1.18.0"
 }
