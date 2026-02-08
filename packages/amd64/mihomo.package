@@ -1,16 +1,16 @@
 Package: mihomo
 Architecture: amd64
-Version: 1.19.19
+Version: 1.19.20
 Priority: optional
 Section: net
 Maintainer: MetaCubeX <none@example.com>
-Installed-Size: 34799
-Filename: https://github.com/MetaCubeX/mihomo/releases/download/v1.19.19/mihomo-linux-amd64-v1.19.19.deb
-Size: 13014554
-MD5sum: ccbd2cfc33c67165fc6f5d18ddee1ce9
-SHA1: 9d016068e65039d706ec44fe56ea27797f9eb707
-SHA256: 1398a910bc1bd303657d8ca3d16c58bbc7fc273f220e4179766a7c2f13b62377
-SHA512: 0d0be69f3e236cedb9665c41e1a17c06f6444950a7dc28b766535400103b86ce7a0c892883feeacd98fe0dea13d3c15b6f9018464abbad95bf3bf0fdc252d386
+Installed-Size: 34863
+Filename: https://github.com/MetaCubeX/mihomo/releases/download/v1.19.20/mihomo-linux-amd64-v1.19.20.deb
+Size: 13041518
+MD5sum: b9a055a49ba40ac100f9480cd7cb6a23
+SHA1: 6af54cdba457917c46f2871167d7e7bdf30294c7
+SHA256: d6504c96e94f14b75db9ea1ce20614461bbc4dfa1a9d930e6cf1c39ba0293315
+SHA512: d760e19b07df589a2ea5ecd46e2318e3c6aeaf956d3b682d23bc919b96a244f5e23abe1ed28811a81c74d7cb1229d90b750b7e3fcaa2a9f11de92c451f5b61cd
 Homepage: https://wiki.metacubex.one/
 Description: The universal proxy platform.
 License: GPL-3.0-or-later
