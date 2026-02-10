@@ -34,9 +34,9 @@
     "rclone": "v1.73.0",
     "bottom": "0.12.3",
     "trippy": "0.13.0",
-    "codium": "1.108.20787",
+    "codium": "1.109.01000",
     "venera": "v1.6.2",
-    "siyuan": "v3.5.4",
+    "siyuan": "v3.5.5",
     "koodo-reader": "v2.2.6",
     "uotantoolbox": "3.5.0",
     "balena-etcher": "v2.1.4",
@@ -45,7 +45,7 @@
     "musicfree": "v0.0.8",
     "onlyoffice-desktopeditors": "v9.2.1",
     "grpcurl": "v1.9.3",
-    "systemd-manager-tui": "v1.2.0",
+    "systemd-manager-tui": "v1.2.1",
     "cherrystudio": "v1.7.17",
     "tinygo": "v0.40.1",
     "draw.io": "v29.3.6",
@@ -55,6 +55,6 @@
     "yazi": "v26.1.22",
     "cn.classisland.app": "2.0.0.2",
     "waveterm": "v0.13.1",
-    "fresh-editor": "v0.2.1",
+    "fresh-editor": "v0.2.2",
     "cryptomator": "1.18.0"
 }
