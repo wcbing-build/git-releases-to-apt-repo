@@ -46,7 +46,7 @@
     "onlyoffice-desktopeditors": "v9.2.1",
     "grpcurl": "v1.9.3",
     "systemd-manager-tui": "v1.2.1",
-    "cherrystudio": "v1.7.17",
+    "cherrystudio": "v1.7.18",
     "tinygo": "v0.40.1",
     "draw.io": "v29.3.6",
     "ulauncher": "5.15.15",
@@ -54,7 +54,7 @@
     "bongo-cat": "v0.9.0",
     "yazi": "v26.1.22",
     "cn.classisland.app": "2.0.0.2",
-    "waveterm": "v0.13.1",
+    "waveterm": "v0.14.0",
     "fresh-editor": "v0.2.3",
     "cryptomator": "1.18.0"
 }
