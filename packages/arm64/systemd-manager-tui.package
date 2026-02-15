@@ -1,16 +1,16 @@
 Package: systemd-manager-tui
 Architecture: arm64
-Version: 1.2.1-1
+Version: 1.2.2-1
 Priority: optional
 Maintainer: Matheus-git <mathiew0@gmail.com>
-Installed-Size: 7407
+Installed-Size: 7468
 Depends:
-Filename: https://github.com/matheus-git/systemd-manager-tui/releases/download/v1.2.1/systemd-manager-tui_1.2.1_arm64.deb
-Size: 1824428
-MD5sum: b1b4f2acfd320a041abbbb2833f045a9
-SHA1: 1334369dd1309d0c891ce19865f8054ba88f5f39
-SHA256: 66571ce9e1bc08f781e3b7038ff8ba96c008e748197cd10138cc41e155d79d1c
-SHA512: 6b76fc022746be74c1a6beeffffcff3440d8ee147f40b414c680d5430bc892401bb222148f2f128d387d246590f099ae6c0dcfd07082d2fdf529c6ea9bd32143
+Filename: https://github.com/matheus-git/systemd-manager-tui/releases/download/v1.2.2/systemd-manager-tui_1.2.2_arm64.deb
+Size: 1842880
+MD5sum: cdc9e5ba8edeb6578bc0b12b9c2352fd
+SHA1: e14222230a4d12765630c08c955db5573e3d2b23
+SHA256: 30d8c156be26856d58b6d664b94535ac40220cb68bbb701d462cc5013da5133b
+SHA512: d7587c8b8281e8cc33cefd3c943e9afc5ab03f407878b0e0b3cc98a6b30f961a955c222e1c935707374b203d1293f235c5ab59b581b80e96e88d9542f5376ec0
 Homepage: https://github.com/matheus-git/systemd-manager-tui
 Description: TUI for managing systemd services
  # Systemd manager tui
@@ -28,9 +28,10 @@ Description: TUI for managing systemd services
  It's possible to navigate between system and user units, and choose to list
  only services (in runtime) or ALL units. 
  .
- ## Screenshots
+ ## Quick Preview
  .
  ![screenshot_list](https://raw.githubusercontent.com/matheus-git/systemd-manager-tui/main/assets/systemd-manager-tui.gif)
+ .
  View
  [screenshots](https://github.com/matheus-git/systemd-manager-tui/blob/main/docs/screenshots.md)
  .
