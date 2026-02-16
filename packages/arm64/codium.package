@@ -1,6 +1,6 @@
 Package: codium
 Architecture: arm64
-Version: 1.109.31074
+Version: 1.109.41146
 Priority: optional
 Section: devel
 Maintainer: VSCodium Team https://github.com/VSCodium/vscodium/graphs/contributors
@@ -10,12 +10,12 @@ Depends: ca-certificates, libasound2 (>= 1.0.17), libatk-bridge2.0-0 (>= 2.5.3),
 Recommends: libvulkan1
 Conflicts: visual-studio-codium
 Replaces: visual-studio-codium
-Filename: https://github.com/VSCodium/vscodium/releases/download/1.109.31074/codium_1.109.31074_arm64.deb
-Size: 106006868
-MD5sum: af81b7f0fae462a039d89338dcddad2b
-SHA1: 65a9c3fb95c774b1b2d79aeee9e6e66550e6d895
-SHA256: 68ed0834a94615e69fe74a2c51fc0b1140b1cd65bf8cbdd939f3b6f8737f8a8e
-SHA512: fef4d830a3ab8c2e185c1d4ba214d30b2cb4c933db94a349c37c8518bb54020aa32b407831205adb854b42845985033d3289b53dd05acbb6201939dab504256b
+Filename: https://github.com/VSCodium/vscodium/releases/download/1.109.41146/codium_1.109.41146_arm64.deb
+Size: 106004884
+MD5sum: e08221b335792c8bae0d623e0fce9c66
+SHA1: fd9ed7c3461d03c6c1ad8b4726152fa1a153e06f
+SHA256: 577ea1dca489279eae492acfdc1441a2e6e7e314df51ac6c52b295c5dd80e5f6
+SHA512: 2818ed7c9bd1c3155c7e7c94cbc8797e50d0b653bdd85f6bd90a3351f44a141ccbb1fd78564e830fc73048dc626f6f12b32bda9a4a3a3e1187e0aff509c9bceb
 Homepage: https://vscodium.com/
 Description: Code editing. Redefined.
  VSCodium is a new choice of tool that combines the simplicity of
