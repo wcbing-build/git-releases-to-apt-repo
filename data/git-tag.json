@@ -2,7 +2,7 @@
     "mihomo": "v1.19.20",
     "hugo": "v0.156.0",
     "rustdesk": "1.4.5",
-    "clash-verge": "v2.4.5",
+    "clash-verge": "v2.4.6",
     "flclash": "v0.8.92",
     "localsend": "v1.17.0",
     "pandoc": "3.9",
@@ -55,6 +55,6 @@
     "yazi": "v26.1.22",
     "cn.classisland.app": "2.0.0.2",
     "waveterm": "v0.14.0",
-    "fresh-editor": "v0.2.4",
+    "fresh-editor": "v0.2.5",
     "cryptomator": "1.18.0"
 }
