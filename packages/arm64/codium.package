@@ -1,21 +1,21 @@
 Package: codium
 Architecture: arm64
-Version: 1.109.41146
+Version: 1.109.51242
 Priority: optional
 Section: devel
 Maintainer: VSCodium Team https://github.com/VSCodium/vscodium/graphs/contributors
-Installed-Size: 445805
+Installed-Size: 445806
 Provides: visual-studio-codium
 Depends: ca-certificates, libasound2 (>= 1.0.17), libatk-bridge2.0-0 (>= 2.5.3), libatk1.0-0 (>= 2.11.90), libatspi2.0-0 (>= 2.9.90), libc6 (>= 2.17), libc6 (>= 2.25), libc6 (>= 2.28), libcairo2 (>= 1.6.0), libcups2 (>= 1.6.0), libcurl3-gnutls | libcurl3-nss | libcurl4 | libcurl3, libdbus-1-3 (>= 1.9.14), libexpat1 (>= 2.1~beta3), libgbm1 (>= 17.1.0~rc2), libglib2.0-0 (>= 2.39.4), libgtk-3-0 (>= 3.9.10), libgtk-3-0 (>= 3.9.10) | libgtk-4-1, libnspr4 (>= 2:4.9-2~), libnss3 (>= 2:3.30), libnss3 (>= 3.26), libpango-1.0-0 (>= 1.14.0), libstdc++6 (>= 4.1.1), libstdc++6 (>= 5), libstdc++6 (>= 5.2), libstdc++6 (>= 6), libstdc++6 (>= 9), libudev1 (>= 183), libx11-6, libx11-6 (>= 2:1.4.99.1), libxcb1 (>= 1.9.2), libxcomposite1 (>= 1:0.4.4-1), libxdamage1 (>= 1:1.1), libxext6, libxfixes3, libxkbcommon0 (>= 0.5.0), libxkbfile1 (>= 1:1.1.0), libxrandr2, xdg-utils (>= 1.0.2)
 Recommends: libvulkan1
 Conflicts: visual-studio-codium
 Replaces: visual-studio-codium
-Filename: https://github.com/VSCodium/vscodium/releases/download/1.109.41146/codium_1.109.41146_arm64.deb
-Size: 106004884
-MD5sum: e08221b335792c8bae0d623e0fce9c66
-SHA1: fd9ed7c3461d03c6c1ad8b4726152fa1a153e06f
-SHA256: 577ea1dca489279eae492acfdc1441a2e6e7e314df51ac6c52b295c5dd80e5f6
-SHA512: 2818ed7c9bd1c3155c7e7c94cbc8797e50d0b653bdd85f6bd90a3351f44a141ccbb1fd78564e830fc73048dc626f6f12b32bda9a4a3a3e1187e0aff509c9bceb
+Filename: https://github.com/VSCodium/vscodium/releases/download/1.109.51242/codium_1.109.51242_arm64.deb
+Size: 106009948
+MD5sum: 271111ff422c79e865cd8eedab30aa91
+SHA1: 5b325b48dbb26748f99d9cd752360a810947d32d
+SHA256: 4558a824329763d5ad8871652016b9f29719449855fa4ea4e673c688856d9939
+SHA512: 1470334d1ff1a21ac5e2b4937b3418902e5c68020866d9a58a0e53a70325b6897ba24df5e4f2cbc9c0ed4511f87f717c939b347fd645aef947f23d986e687186
 Homepage: https://vscodium.com/
 Description: Code editing. Redefined.
  VSCodium is a new choice of tool that combines the simplicity of
