@@ -13,7 +13,7 @@
     "cloudflared": "2026.2.0",
     "foliate": "3.3.0",
     "caddy": "v2.10.2",
-    "hiddify": "v2.0.5",
+    "hiddify": "v4.0.4",
     "code-server": "v4.109.2",
     "dbeaver-ce": "25.3.4",
     "tinyrdm": "v1.2.6",
