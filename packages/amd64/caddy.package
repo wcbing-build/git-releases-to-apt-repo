@@ -1,16 +1,16 @@
 Package: caddy
 Architecture: amd64
-Version: 2.10.2
+Version: 2.11.1
 Priority: optional
 Maintainer: Matthew Holt <mholt@users.noreply.github.com>
-Installed-Size: 43409
+Installed-Size: 46374
 Provides: httpd
-Filename: https://github.com/caddyserver/caddy/releases/download/v2.10.2/caddy_2.10.2_linux_amd64.deb
-Size: 15961758
-MD5sum: e31e3407f3995cbc52b4caf109661c4d
-SHA1: b175d3a19535e8c727737098eb08758cd60c2260
-SHA256: 1ecdbfe369c3fa052fc1918db5f6896aed6c9777dc1bae95c873f751bf6a7a71
-SHA512: e3d6909253b12dc723393fb1f0ace74e2c9bd8d64273fca6727adcf7c7882ebcb9611b6ab42223b20e93fc702f7c0f25bff1c12a88223202a069bb770d95990d
+Filename: https://github.com/caddyserver/caddy/releases/download/v2.11.1/caddy_2.11.1_linux_amd64.deb
+Size: 17011798
+MD5sum: 63361ac0ce4220bea9e0bece795c9140
+SHA1: 96e46cdfeda25367fe46cf202e48e7966dd05797
+SHA256: 220ecc579aff4b5ea061ff501d9569e21b4195ee3560a02222952390be73c8ff
+SHA512: 4b047982b03fb95310382d3ca4dfb9cbc0c0ac19d687860f35fdd07e549086f9e5d052b4ae8f4207f2f11762d354dccf12fa62c2ceb521b635e4c25b8085d168
 Homepage: https://caddyserver.com
 Description: Caddy - Powerful, enterprise-ready, open source web server with automatic HTTPS written in Go
 License: Apache 2.0
