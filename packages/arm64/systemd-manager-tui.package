@@ -1,32 +1,29 @@
 Package: systemd-manager-tui
 Architecture: arm64
-Version: 1.2.2-1
+Version: 1.2.4-1
 Priority: optional
 Maintainer: Matheus-git <mathiew0@gmail.com>
-Installed-Size: 7468
+Installed-Size: 7596
 Depends:
-Filename: https://github.com/matheus-git/systemd-manager-tui/releases/download/v1.2.2/systemd-manager-tui_1.2.2_arm64.deb
-Size: 1842880
-MD5sum: cdc9e5ba8edeb6578bc0b12b9c2352fd
-SHA1: e14222230a4d12765630c08c955db5573e3d2b23
-SHA256: 30d8c156be26856d58b6d664b94535ac40220cb68bbb701d462cc5013da5133b
-SHA512: d7587c8b8281e8cc33cefd3c943e9afc5ab03f407878b0e0b3cc98a6b30f961a955c222e1c935707374b203d1293f235c5ab59b581b80e96e88d9542f5376ec0
+Filename: https://github.com/matheus-git/systemd-manager-tui/releases/download/v1.2.4/systemd-manager-tui_1.2.4_arm64.deb
+Size: 1889164
+MD5sum: 3fc019727fa93c216ec9c2bc4a9caf38
+SHA1: 19acfae79db75504cf83db7073dcb51a989a4267
+SHA256: 9878d2df9cd54ab43fdb0470418ea7a00528b53b793ab0bc5ebff3cdecefe88f
+SHA512: 894b7e09653dc78488e74544f35cb492947360c946aef1ec226f94c80e5c486ba64eecccde5bac356fb6c5097f9dcf21f5ebb5a6a207abe3cf69d65208816614
 Homepage: https://github.com/matheus-git/systemd-manager-tui
 Description: TUI for managing systemd services
  # Systemd manager tui
  .
  ![rust](https://img.shields.io/badge/Rust-000000?style=for-the-badge&logo=rust&logoColor=white)
  .
- A program for managing systemd services through a TUI (Terminal User
- Interfaces).
+ A TUI application for managing systemd services.
  .
  This tool allows you to manage systemd services with ease. You can view logs,
- list services, view properties, edit unit file and control their
- lifecycle—start, stop, restart, mask, unmask, enable, and disable—using the
- D-Bus API. It also supports Vim-like navigation.
- .
- It's possible to navigate between system and user units, and choose to list
- only services (in runtime) or ALL units. 
+ list services, view properties, edit unit files, and control their lifecycle:
+ start, stop, restart, mask, unmask, enable, and disable using the D-Bus API. It
+ also supports Vim-like navigation. It is possible to navigate between system
+ and user units and choose to list only running services or all units.
  .
  ## Quick Preview
  .
