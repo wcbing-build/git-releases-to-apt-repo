@@ -1,96 +1,29 @@
 {
-    "clash-verge": {
-        "repo": "clash-verge-rev/clash-verge-rev",
+    "balena-etcher": {
+        "repo": "balena-io/etcher",
         "file_list": {
-            "amd64": "Clash.Verge_{version}_amd64.deb",
-            "arm64": "Clash.Verge_{version}_arm64.deb"
+            "amd64": "balena-etcher_{version}_amd64.deb"
         }
     },
-    "mihomo": {
-        "repo": "MetaCubeX/mihomo",
+    "bat": {
+        "repo": "sharkdp/bat",
         "file_list": {
-            "amd64": "mihomo-linux-amd64-{releases_tag}.deb",
-            "arm64": "mihomo-linux-arm64-{releases_tag}.deb"
+            "amd64": "bat_{version}_amd64.deb",
+            "arm64": "bat_{version}_arm64.deb"
         }
     },
-    "flclash": {
-        "repo": "chen08209/FlClash",
+    "bongo-cat": {
+        "repo": "ayangweb/BongoCat",
         "file_list": {
-            "amd64": "FlClash-{version}-linux-amd64.deb",
-            "arm64": "FlClash-{version}-linux-arm64.deb"
+            "amd64": "BongoCat_{version}_amd64.deb",
+            "arm64": "BongoCat_{version}_arm64.deb"
         }
     },
-    "hugo": {
-        "repo": "gohugoio/hugo",
+    "bottom": {
+        "repo": "ClementTsang/bottom",
         "file_list": {
-            "amd64": "hugo_extended_{version}_linux-amd64.deb",
-            "arm64": "hugo_extended_{version}_linux-arm64.deb"
-        }
-    },
-    "rustdesk": {
-        "repo": "rustdesk/rustdesk",
-        "file_list": {
-            "amd64": "rustdesk-{releases_tag}-x86_64.deb",
-            "arm64": "rustdesk-{releases_tag}-aarch64.deb"
-        }
-    },
-    "obsidian": {
-        "repo": "obsidianmd/obsidian-releases",
-        "file_list": {
-            "amd64": "obsidian_{version}_amd64.deb"
-        }
-    },
-    "draw.io": {
-        "repo": "jgraph/drawio-desktop",
-        "file_list": {
-            "amd64": "drawio-amd64-{version}.deb",
-            "arm64": "drawio-arm64-{version}.deb"
-        }
-    },
-    "tabby-terminal": {
-        "repo": "Eugeny/tabby",
-        "file_list": {
-            "amd64": "tabby-{version}-linux-x64.deb",
-            "arm64": "tabby-{version}-linux-arm64.deb"
-        }
-    },
-    "pandoc": {
-        "repo": "jgm/pandoc",
-        "file_list": {
-            "amd64": "pandoc-{releases_tag}-1-amd64.deb",
-            "arm64": "pandoc-{releases_tag}-1-arm64.deb"
-        }
-    },
-    "localsend": {
-        "repo": "localsend/localsend",
-        "file_list": {
-            "amd64": "LocalSend-{version}-linux-x86-64.deb",
-            "arm64": "LocalSend-{version}-linux-arm-64.deb"
-        }
-    },
-    "peazip": {
-        "repo": "peazip/PeaZip",
-        "file_list": {
-            "amd64": "peazip_{releases_tag}.LINUX.GTK2-1_amd64.deb"
-        }
-    },
-    "neovim": {
-        "repo": "neovim/neovim-releases",
-        "file_list": {
-            "amd64": "nvim-linux-x86_64.deb"
-        }
-    },
-    "hiddify": {
-        "repo": "hiddify/hiddify-app",
-        "file_list": {
-            "amd64": "Hiddify-Debian-x64.deb"
-        }
-    },
-    "cloudflared": {
-        "repo": "cloudflare/cloudflared",
-        "file_list": {
-            "amd64": "cloudflared-linux-amd64.deb",
-            "arm64": "cloudflared-linux-arm64.deb"
+            "amd64": "bottom_{version}-1_amd64.deb",
+            "arm64": "bottom_{version}-1_arm64.deb"
         }
     },
     "caddy": {
@@ -100,17 +33,39 @@
             "arm64": "caddy_{version}_linux_arm64.deb"
         }
     },
-    "foliate": {
-        "repo": "johnfactotum/foliate",
+    "cherrystudio": {
+        "repo": "CherryHQ/cherry-studio",
         "file_list": {
-            "all": "foliate_{releases_tag}_all.deb"
+            "amd64": "Cherry-Studio-{version}-amd64.deb",
+            "arm64": "Cherry-Studio-{version}-arm64.deb"
         }
     },
-    "codium": {
-        "repo": "VSCodium/vscodium",
+    "chezmoi": {
+        "repo": "twpayne/chezmoi",
         "file_list": {
-            "amd64": "codium_{version}_amd64.deb",
-            "arm64": "codium_{version}_arm64.deb"
+            "amd64": "chezmoi_{version}_linux_amd64.deb",
+            "arm64": "chezmoi_{version}_linux_arm64.deb"
+        }
+    },
+    "clash-verge": {
+        "repo": "clash-verge-rev/clash-verge-rev",
+        "file_list": {
+            "amd64": "Clash.Verge_{version}_amd64.deb",
+            "arm64": "Clash.Verge_{version}_arm64.deb"
+        }
+    },
+    "cloudflared": {
+        "repo": "cloudflare/cloudflared",
+        "file_list": {
+            "amd64": "cloudflared-linux-amd64.deb",
+            "arm64": "cloudflared-linux-arm64.deb"
+        }
+    },
+    "cn.classisland.app": {
+        "repo": "ClassIsland/ClassIsland",
+        "file_list": {
+            "amd64": "ClassIsland_app_linux_x64_selfContained_deb.deb",
+            "arm64": "ClassIsland_app_linux_arm64_selfContained_deb.deb"
         }
     },
     "code-server": {
@@ -120,6 +75,19 @@
             "arm64": "code-server_{version}_arm64.deb"
         }
     },
+    "codium": {
+        "repo": "VSCodium/vscodium",
+        "file_list": {
+            "amd64": "codium_{version}_amd64.deb",
+            "arm64": "codium_{version}_arm64.deb"
+        }
+    },
+    "cryptomator": {
+        "repo": "cryptomator/cryptomator",
+        "file_list": {
+            "amd64": "cryptomator_{version}-0ppa1_amd64.deb"
+        }
+    },
     "dbeaver-ce": {
         "repo": "dbeaver/dbeaver",
         "file_list": {
@@ -127,83 +95,11 @@
             "arm64": "dbeaver-ce-{version}-linux-aarch64.deb"
         }
     },
-    "flameshot": {
-        "repo": "flameshot-org/flameshot",
+    "draw.io": {
+        "repo": "jgraph/drawio-desktop",
         "file_list": {
-            "amd64": "flameshot-{version}-1.debian-12.amd64.deb"
-        }
-    },
-    "joplin": {
-        "repo": "laurent22/joplin",
-        "file_list": {
-            "amd64": "Joplin-{version}.deb"
-        }
-    },
-    "spark-store": {
-        "site": "https://gitee.com",
-        "repo": "spark-store-project/spark-store",
-        "file_list": {
-            "amd64": "spark-store_{releases_tag}_amd64.deb",
-            "arm64": "spark-store_{releases_tag}_arm64.deb"
-        }
-    },
-    "tinyrdm": {
-        "repo": "tiny-craft/tiny-rdm",
-        "file_list": {
-            "amd64": "tiny-rdm_{version}_linux_amd64_webkit2_41.deb"
-        }
-    },
-    "mqttx": {
-        "repo": "emqx/MQTTX",
-        "file_list": {
-            "amd64": "MQTTX_{version}_amd64.deb",
-            "arm64": "MQTTX_{version}_arm64.deb"
-        }
-    },
-    "splayer": {
-        "repo": "imsyy/SPlayer",
-        "file_list": {
-            "amd64": "splayer-{version}-amd64.deb",
-            "arm64": "splayer-{version}-arm64.deb"
-        }
-    },
-    "winboat": {
-        "repo": "TibixDev/winboat",
-        "file_list": {
-            "amd64": "winboat-{version}-amd64.deb"
-        }
-    },
-    "fooyin": {
-        "repo": "fooyin/fooyin",
-        "file_list": {
-            "amd64": "fooyin_{version}-trixie_amd64.deb"
-        }
-    },
-    "simplenote": {
-        "repo": "Automattic/simplenote-electron",
-        "file_list": {
-            "amd64": "Simplenote-linux-{version}-amd64.deb",
-            "arm64": "Simplenote-linux-{version}-arm64.deb"
-        }
-    },
-    "yesplaymusic": {
-        "repo": "qier222/YesPlayMusic",
-        "file_list": {
-            "amd64": "yesplaymusic_{version}_amd64.deb",
-            "arm64": "yesplaymusic_{version}_arm64.deb"
-        }
-    },
-    "sparkle": {
-        "repo": "xishang0128/sparkle",
-        "file_list": {
-            "amd64": "sparkle-linux-{releases_tag}-amd64.deb",
-            "arm64": "sparkle-linux-{releases_tag}-arm64.deb"
-        }
-    },
-    "hoppscotch": {
-        "repo": "hoppscotch/releases",
-        "file_list": {
-            "amd64": "Hoppscotch_linux_x64.deb"
+            "amd64": "drawio-amd64-{version}.deb",
+            "arm64": "drawio-arm64-{version}.deb"
         }
     },
     "du-dust": {
@@ -219,159 +115,29 @@
             "arm64": "fastfetch-linux-aarch64.deb"
         }
     },
-    "rclone": {
-        "repo": "rclone/rclone",
+    "flameshot": {
+        "repo": "flameshot-org/flameshot",
         "file_list": {
-            "amd64": "rclone-{releases_tag}-linux-amd64.deb",
-            "arm64": "rclone-{releases_tag}-linux-arm64.deb"
+            "amd64": "flameshot-{version}-1.debian-12.amd64.deb"
         }
     },
-    "bat": {
-        "repo": "sharkdp/bat",
+    "flclash": {
+        "repo": "chen08209/FlClash",
         "file_list": {
-            "amd64": "bat_{version}_amd64.deb",
-            "arm64": "bat_{version}_arm64.deb"
+            "amd64": "FlClash-{version}-linux-amd64.deb",
+            "arm64": "FlClash-{version}-linux-arm64.deb"
         }
     },
-    "bottom": {
-        "repo": "ClementTsang/bottom",
+    "foliate": {
+        "repo": "johnfactotum/foliate",
         "file_list": {
-            "amd64": "bottom_{version}-1_amd64.deb",
-            "arm64": "bottom_{version}-1_arm64.deb"
+            "all": "foliate_{releases_tag}_all.deb"
         }
     },
-    "trippy": {
-        "repo": "fujiapple852/trippy",
+    "fooyin": {
+        "repo": "fooyin/fooyin",
         "file_list": {
-            "amd64": "trippy_x86_64-unknown-linux-musl_0.13.0_amd64.deb"
-        }
-    },
-    "siyuan": {
-        "repo": "siyuan-note/siyuan",
-        "file_list": {
-            "amd64": "siyuan-{version}-linux.deb",
-            "arm64": "siyuan-{version}-linux-arm64.deb"
-        }
-    },
-    "onlyoffice-desktopeditors": {
-        "repo": "ONLYOFFICE/DesktopEditors",
-        "file_list": {
-            "amd64": "onlyoffice-desktopeditors_amd64.deb"
-        }
-    },
-    "venera": {
-        "repo": "venera-app/venera",
-        "file_list": {
-            "amd64": "venera_{version}_amd64.deb",
-            "arm64": "venera_{version}_arm64.deb"
-        }
-    },
-    "koodo-reader": {
-        "repo": "koodo-reader/koodo-reader",
-        "file_list": {
-            "amd64": "Koodo-Reader-{version}-amd64.deb",
-            "arm64": "Koodo-Reader-{version}-arm64.deb"
-        }
-    },
-    "uotantoolbox": {
-        "repo": "Uotan-Dev/UotanToolboxNT",
-        "file_list": {
-            "amd64": "UotanToolbox_Linux_x64_{releases_tag}.deb",
-            "arm64": "UotanToolbox_Linux_arm64_{releases_tag}.deb"
-        }
-    },
-    "balena-etcher": {
-        "repo": "balena-io/etcher",
-        "file_list": {
-            "amd64": "balena-etcher_{version}_amd64.deb"
-        }
-    },
-    "zyfun": {
-        "repo": "Hiram-Wong/zyfun",
-        "file_list": {
-            "amd64": "zyfun-linux-{version}-amd64.deb",
-            "arm64": "zyfun-linux-{version}-arm64.deb"
-        }
-    },
-    "pdfsam-basic": {
-        "repo": "torakiki/pdfsam",
-        "file_list": {
-            "amd64": "pdfsam-basic_{version}-1_amd64.deb"
-        }
-    },
-    "musicfree": {
-        "repo": "maotoumao/MusicFreeDesktop",
-        "file_list": {
-            "amd64": "MusicFree-{version}-linux-amd64.deb"
-        }
-    },
-    "grpcurl": {
-        "repo": "fullstorydev/grpcurl",
-        "file_list": {
-            "amd64": "grpcurl_{version}_linux_amd64.deb",
-            "arm64": "grpcurl_{version}_linux_arm64.deb"
-        }
-    },
-    "tinygo": {
-        "repo": "tinygo-org/tinygo",
-        "file_list": {
-            "amd64": "tinygo_{version}_amd64.deb",
-            "arm64": "tinygo_{version}_arm64.deb"
-        }
-    },
-    "chezmoi": {
-        "repo": "twpayne/chezmoi",
-        "file_list": {
-            "amd64": "chezmoi_{version}_linux_amd64.deb",
-            "arm64": "chezmoi_{version}_linux_arm64.deb"
-        }
-    },
-    "cherrystudio": {
-        "repo": "CherryHQ/cherry-studio",
-        "file_list": {
-            "amd64": "Cherry-Studio-{version}-amd64.deb",
-            "arm64": "Cherry-Studio-{version}-arm64.deb"
-        }
-    },
-    "systemd-manager-tui": {
-        "repo": "matheus-git/systemd-manager-tui",
-        "file_list": {
-            "amd64": "systemd-manager-tui_{version}_amd64.deb",
-            "arm64": "systemd-manager-tui_{version}_arm64.deb"
-        }
-    },
-    "ulauncher": {
-        "repo": "Ulauncher/Ulauncher",
-        "file_list": {
-            "all": "ulauncher_{version}_all.deb"
-        }
-    },
-    "yazi": {
-        "repo": "sxyazi/yazi",
-        "file_list": {
-            "amd64": "yazi-x86_64-unknown-linux-musl.deb",
-            "arm64": "yazi-aarch64-unknown-linux-musl.deb"
-        }
-    },
-    "bongo-cat": {
-        "repo": "ayangweb/BongoCat",
-        "file_list": {
-            "amd64": "BongoCat_{version}_amd64.deb",
-            "arm64": "BongoCat_{version}_arm64.deb"
-        }
-    },
-    "cn.classisland.app": {
-        "repo": "ClassIsland/ClassIsland",
-        "file_list": {
-            "amd64": "ClassIsland_app_linux_x64_selfContained_deb.deb",
-            "arm64": "ClassIsland_app_linux_arm64_selfContained_deb.deb"
-        }
-    },
-    "waveterm": {
-        "repo": "wavetermdev/waveterm",
-        "file_list": {
-            "amd64": "waveterm-linux-amd64-{version}.deb",
-            "arm64": "waveterm-linux-arm64-{version}.deb"
+            "amd64": "fooyin_{version}-trixie_amd64.deb"
         }
     },
     "fresh-editor": {
@@ -381,10 +147,244 @@
             "arm64": "fresh-editor_{version}-1_arm64.deb"
         }
     },
-    "cryptomator": {
-        "repo": "cryptomator/cryptomator",
+    "grpcurl": {
+        "repo": "fullstorydev/grpcurl",
         "file_list": {
-            "amd64": "cryptomator_{version}-0ppa1_amd64.deb"
+            "amd64": "grpcurl_{version}_linux_amd64.deb",
+            "arm64": "grpcurl_{version}_linux_arm64.deb"
+        }
+    },
+    "hiddify": {
+        "repo": "hiddify/hiddify-app",
+        "file_list": {
+            "amd64": "Hiddify-Debian-x64.deb"
+        }
+    },
+    "hoppscotch": {
+        "repo": "hoppscotch/releases",
+        "file_list": {
+            "amd64": "Hoppscotch_linux_x64.deb"
+        }
+    },
+    "hugo": {
+        "repo": "gohugoio/hugo",
+        "file_list": {
+            "amd64": "hugo_extended_{version}_linux-amd64.deb",
+            "arm64": "hugo_extended_{version}_linux-arm64.deb"
+        }
+    },
+    "joplin": {
+        "repo": "laurent22/joplin",
+        "file_list": {
+            "amd64": "Joplin-{version}.deb"
+        }
+    },
+    "koodo-reader": {
+        "repo": "koodo-reader/koodo-reader",
+        "file_list": {
+            "amd64": "Koodo-Reader-{version}-amd64.deb",
+            "arm64": "Koodo-Reader-{version}-arm64.deb"
+        }
+    },
+    "localsend": {
+        "repo": "localsend/localsend",
+        "file_list": {
+            "amd64": "LocalSend-{version}-linux-x86-64.deb",
+            "arm64": "LocalSend-{version}-linux-arm-64.deb"
+        }
+    },
+    "mihomo": {
+        "repo": "MetaCubeX/mihomo",
+        "file_list": {
+            "amd64": "mihomo-linux-amd64-{releases_tag}.deb",
+            "arm64": "mihomo-linux-arm64-{releases_tag}.deb"
+        }
+    },
+    "mqttx": {
+        "repo": "emqx/MQTTX",
+        "file_list": {
+            "amd64": "MQTTX_{version}_amd64.deb",
+            "arm64": "MQTTX_{version}_arm64.deb"
+        }
+    },
+    "musicfree": {
+        "repo": "maotoumao/MusicFreeDesktop",
+        "file_list": {
+            "amd64": "MusicFree-{version}-linux-amd64.deb"
+        }
+    },
+    "neovim": {
+        "repo": "neovim/neovim-releases",
+        "file_list": {
+            "amd64": "nvim-linux-x86_64.deb"
+        }
+    },
+    "obsidian": {
+        "repo": "obsidianmd/obsidian-releases",
+        "file_list": {
+            "amd64": "obsidian_{version}_amd64.deb"
+        }
+    },
+    "onlyoffice-desktopeditors": {
+        "repo": "ONLYOFFICE/DesktopEditors",
+        "file_list": {
+            "amd64": "onlyoffice-desktopeditors_amd64.deb"
+        }
+    },
+    "pandoc": {
+        "repo": "jgm/pandoc",
+        "file_list": {
+            "amd64": "pandoc-{releases_tag}-1-amd64.deb",
+            "arm64": "pandoc-{releases_tag}-1-arm64.deb"
+        }
+    },
+    "pdfsam-basic": {
+        "repo": "torakiki/pdfsam",
+        "file_list": {
+            "amd64": "pdfsam-basic_{version}-1_amd64.deb"
+        }
+    },
+    "peazip": {
+        "repo": "peazip/PeaZip",
+        "file_list": {
+            "amd64": "peazip_{releases_tag}.LINUX.GTK2-1_amd64.deb"
+        }
+    },
+    "rclone": {
+        "repo": "rclone/rclone",
+        "file_list": {
+            "amd64": "rclone-{releases_tag}-linux-amd64.deb",
+            "arm64": "rclone-{releases_tag}-linux-arm64.deb"
+        }
+    },
+    "rustdesk": {
+        "repo": "rustdesk/rustdesk",
+        "file_list": {
+            "amd64": "rustdesk-{releases_tag}-x86_64.deb",
+            "arm64": "rustdesk-{releases_tag}-aarch64.deb"
+        }
+    },
+    "simplenote": {
+        "repo": "Automattic/simplenote-electron",
+        "file_list": {
+            "amd64": "Simplenote-linux-{version}-amd64.deb",
+            "arm64": "Simplenote-linux-{version}-arm64.deb"
+        }
+    },
+    "siyuan": {
+        "repo": "siyuan-note/siyuan",
+        "file_list": {
+            "amd64": "siyuan-{version}-linux.deb",
+            "arm64": "siyuan-{version}-linux-arm64.deb"
+        }
+    },
+    "spark-store": {
+        "site": "https://gitee.com",
+        "repo": "spark-store-project/spark-store",
+        "file_list": {
+            "amd64": "spark-store_{releases_tag}_amd64.deb",
+            "arm64": "spark-store_{releases_tag}_arm64.deb"
+        }
+    },
+    "sparkle": {
+        "repo": "xishang0128/sparkle",
+        "file_list": {
+            "amd64": "sparkle-linux-{releases_tag}-amd64.deb",
+            "arm64": "sparkle-linux-{releases_tag}-arm64.deb"
+        }
+    },
+    "splayer": {
+        "repo": "imsyy/SPlayer",
+        "file_list": {
+            "amd64": "splayer-{version}-amd64.deb",
+            "arm64": "splayer-{version}-arm64.deb"
+        }
+    },
+    "systemd-manager-tui": {
+        "repo": "matheus-git/systemd-manager-tui",
+        "file_list": {
+            "amd64": "systemd-manager-tui_{version}_amd64.deb",
+            "arm64": "systemd-manager-tui_{version}_arm64.deb"
+        }
+    },
+    "tabby-terminal": {
+        "repo": "Eugeny/tabby",
+        "file_list": {
+            "amd64": "tabby-{version}-linux-x64.deb",
+            "arm64": "tabby-{version}-linux-arm64.deb"
+        }
+    },
+    "tinygo": {
+        "repo": "tinygo-org/tinygo",
+        "file_list": {
+            "amd64": "tinygo_{version}_amd64.deb",
+            "arm64": "tinygo_{version}_arm64.deb"
+        }
+    },
+    "tinyrdm": {
+        "repo": "tiny-craft/tiny-rdm",
+        "file_list": {
+            "amd64": "tiny-rdm_{version}_linux_amd64_webkit2_41.deb"
+        }
+    },
+    "trippy": {
+        "repo": "fujiapple852/trippy",
+        "file_list": {
+            "amd64": "trippy_x86_64-unknown-linux-musl_0.13.0_amd64.deb"
+        }
+    },
+    "ulauncher": {
+        "repo": "Ulauncher/Ulauncher",
+        "file_list": {
+            "all": "ulauncher_{version}_all.deb"
+        }
+    },
+    "uotantoolbox": {
+        "repo": "Uotan-Dev/UotanToolboxNT",
+        "file_list": {
+            "amd64": "UotanToolbox_Linux_x64_{releases_tag}.deb",
+            "arm64": "UotanToolbox_Linux_arm64_{releases_tag}.deb"
+        }
+    },
+    "venera": {
+        "repo": "venera-app/venera",
+        "file_list": {
+            "amd64": "venera_{version}_amd64.deb",
+            "arm64": "venera_{version}_arm64.deb"
+        }
+    },
+    "waveterm": {
+        "repo": "wavetermdev/waveterm",
+        "file_list": {
+            "amd64": "waveterm-linux-amd64-{version}.deb",
+            "arm64": "waveterm-linux-arm64-{version}.deb"
+        }
+    },
+    "winboat": {
+        "repo": "TibixDev/winboat",
+        "file_list": {
+            "amd64": "winboat-{version}-amd64.deb"
+        }
+    },
+    "yazi": {
+        "repo": "sxyazi/yazi",
+        "file_list": {
+            "amd64": "yazi-x86_64-unknown-linux-musl.deb",
+            "arm64": "yazi-aarch64-unknown-linux-musl.deb"
+        }
+    },
+    "yesplaymusic": {
+        "repo": "qier222/YesPlayMusic",
+        "file_list": {
+            "amd64": "yesplaymusic_{version}_amd64.deb",
+            "arm64": "yesplaymusic_{version}_arm64.deb"
+        }
+    },
+    "zyfun": {
+        "repo": "Hiram-Wong/zyfun",
+        "file_list": {
+            "amd64": "zyfun-linux-{version}-amd64.deb",
+            "arm64": "zyfun-linux-{version}-arm64.deb"
         }
     }
 }

@@ -8,63 +8,63 @@
 
 | 软件名 | 包名 | amd64 | arm64 |
 | ----- | ---- | ----- | ----- |
-| [Clash Verge Rev](https://github.com/clash-verge-rev/clash-verge-rev) | clash-verge | ✅ | ✅ |
-| [FlClash](https://github.com/chen08209/FlClash) | flclash | ✅ | ✅ |
-| [mihomo](https://github.com/MetaCubeX/mihomo) | mihomo | ✅ | ✅ |
-| [hugo](https://github.com/gohugoio/hugo) | hugo | ✅ | ✅ |
-| [RustDesk](https://github.com/rustdesk/rustdesk) | rustdesk | ✅ | ✅ |
-| [Obsidian](https://github.com/obsidianmd/obsidian-releases) | obsidian | ✅ | |
-| [draw.io](https://github.com/jgraph/drawio-desktop) | draw.io | ✅ | ✅ |
-| [Foliate](https://github.com/johnfactotum/foliate) | foliate |  ✅ | ✅ |
-| [Tabby](https://github.com/Eugeny/tabby) | tabby-terminal | ✅ | ✅ |
-| [Pandoc](https://github.com/jgm/pandoc) | pandoc | ✅ | ✅ |
-| [LocalSend](https://github.com/localsend/localsend) | localsend | ✅ | ✅ |
-| [PeaZip](https://github.com/peazip/PeaZip) | peazip | ✅ | |
-| [Neovim/Nvim](https://github.com/neovim/neovim-releases) | neovim | ✅ | |
-| [Hiddify](https://github.com/hiddify/hiddify-app) | hiddify | ✅ | |
-| [Cloudflare Tunnel](https://github.com/cloudflare/cloudflared) | cloudflared | ✅ | ✅ |
+| [balenaEtcher](https://github.com/balena-io/etcher) | balena-etcher | ✅ | |
+| [bat](https://github.com/sharkdp/bat) | bat | ✅ | ✅ |
+| [BongoCat](https://github.com/ayangweb/BongoCat) | bongo-cat | ✅ | ✅ |
+| [bottom (btm)](https://github.com/ClementTsang/bottom) | bottom | ✅ | ✅ |
 | [Caddy](https://github.com/caddyserver/caddy) | caddy | ✅ | ✅ |
-| [VSCodium](https://github.com/VSCodium/vscodium) | codium | ✅ | ✅ |
+| [Cherry Studio](https://github.com/CherryHQ/cherry-studio) | cherrystudio | ✅ | ✅ |
+| [chezmoi](https://github.com/twpayne/chezmoi) | chezmoi | ✅ | ✅ |
+| [Clash Verge Rev](https://github.com/clash-verge-rev/clash-verge-rev) | clash-verge | ✅ | ✅ |
+| [Cloudflare Tunnel](https://github.com/cloudflare/cloudflared) | cloudflared | ✅ | ✅ |
+| [ClassIsland](https://github.com/ClassIsland/ClassIsland) | cn.classisland.app | ✅ | ✅ |
 | [code-server](https://github.com/coder/code-server) | code-server | ✅ | ✅ |
+| [VSCodium](https://github.com/VSCodium/vscodium) | codium | ✅ | ✅ |
+| [Cryptomator](https://github.com/cryptomator/cryptomator) | cryptomator | ✅ | |
 | [DBeaver](https://github.com/dbeaver/dbeaver) | dbeaver-ce | ✅ | |
-| [Flameshot](https://github.com/flameshot-org/flameshot) | flameshot | ✅ | |
-| [Joplin](https://github.com/laurent22/joplin) | joplin | ✅ | |
-| [SPlayer](https://github.com/imsyy/SPlayer) | splayer | ✅ | ✅ |
-| [Tiny RDM](https://github.com/tiny-craft/tiny-rdm) | tinyrdm | ✅ | |
-| [MQTTX](https://github.com/emqx/MQTTX) | mqttx | ✅ | ✅ |
-| [WinBoat](https://github.com/TibixDev/winboat) | winboat | ✅ | |
-| [fooyin](https://github.com/fooyin/fooyin) | fooyin | ✅ | |
-| [Simplenote](https://github.com/Automattic/simplenote-electron) | simplenote | ✅ | ✅ |
-| [YesPlayMusic](https://github.com/qier222/YesPlayMusic) | yesplaymusic | ✅ | ✅ |
-| [Sparkle](https://github.com/xishang0128/sparkle) | sparkle | ✅ | ✅ |
-| [Hoppscotch](https://github.com/hoppscotch/releases) | hoppscotch | ✅ | |
+| [draw.io](https://github.com/jgraph/drawio-desktop) | draw.io | ✅ | ✅ |
 | [Dust](https://github.com/bootandy/dust) | du-dust | ✅ | |
 | [Fastfetch](https://github.com/fastfetch-cli/fastfetch) | fastfetch | ✅ | ✅ |
-| [Rclone](https://github.com/rclone/rclone) | rclone | ✅ | ✅ |
-| [bat](https://github.com/sharkdp/bat) | bat | ✅ | ✅ |
-| [bottom (btm)](https://github.com/ClementTsang/bottom) | bottom | ✅ | ✅ |
-| [Trippy](https://github.com/fujiapple852/trippy) | trippy | ✅ | |
-| [思源笔记](https://github.com/siyuan-note/siyuan) | siyuan | ✅ | ✅ |
-| [OnlyOffice 桌面编辑器](https://github.com/ONLYOFFICE/DesktopEditors) | onlyoffice-desktopeditors | ✅ | |
-| [venera](https://github.com/venera-app/venera) | venera | ✅ | ✅ |
-| [Koodo Reader](https://github.com/koodo-reader/koodo-reader) | koodo-reader | ✅ | ✅ |
-| [柚坛工具箱 NT](https://github.com/Uotan-Dev/UotanToolboxNT) | uotantoolbox | ✅ | ✅ |
-| [balenaEtcher](https://github.com/balena-io/etcher) | balena-etcher | ✅ | |
-| [zyfun[ZyPlayer]](https://github.com/Hiram-Wong/ZyPlayer) | zyfun | ✅ | ✅ | |
-| [PDFsam Basic](https://github.com/torakiki/pdfsam) | pdfsam-basic | ✅ | |
-| [MusicFree](https://github.com/maotoumao/MusicFreeDesktop) | musicfree | ✅ | |
-| [gRPCurl](https://github.com/fullstorydev/grpcurl) | grpcurl | ✅ | ✅ |
-| [TinyGo](https://github.com/tinygo-org/tinygo) | tinygo | ✅ | ✅ |
-| [chezmoi](https://github.com/twpayne/chezmoi) | chezmoi | ✅ | ✅ |
-| [Cherry Studio](https://github.com/CherryHQ/cherry-studio) | cherrystudio | ✅ | ✅ |
-| [Systemd manager tui](https://github.com/matheus-git/systemd-manager-tui) | systemd-manager-tui | ✅ | ✅ |
-| [Ulauncher](https://github.com/Ulauncher/Ulauncher) | ulauncher | ✅ | ✅ |
-| [Yazi](https://github.com/sxyazi/yazi) | yazi | ✅ | ✅ |
-| [BongoCat](https://github.com/ayangweb/BongoCat) | bongo-cat | ✅ | ✅ |
-| [ClassIsland](https://github.com/ClassIsland/ClassIsland) | cn.classisland.app | ✅ | ✅ |
-| [Wave Terminal](https://github.com/wavetermdev/waveterm) | waveterm | ✅ | ✅ |
+| [Flameshot](https://github.com/flameshot-org/flameshot) | flameshot | ✅ | |
+| [FlClash](https://github.com/chen08209/FlClash) | flclash | ✅ | ✅ |
+| [Foliate](https://github.com/johnfactotum/foliate) | foliate | ✅ | ✅ |
+| [fooyin](https://github.com/fooyin/fooyin) | fooyin | ✅ | |
 | [Fresh](https://github.com/sinelaw/fresh) | fresh-editor | ✅ | ✅ |
-| [Cryptomator](https://github.com/cryptomator/cryptomator) | cryptomator | ✅ | |
+| [gRPCurl](https://github.com/fullstorydev/grpcurl) | grpcurl | ✅ | ✅ |
+| [Hiddify](https://github.com/hiddify/hiddify-app) | hiddify | ✅ | |
+| [Hoppscotch](https://github.com/hoppscotch/releases) | hoppscotch | ✅ | |
+| [hugo](https://github.com/gohugoio/hugo) | hugo | ✅ | ✅ |
+| [Joplin](https://github.com/laurent22/joplin) | joplin | ✅ | |
+| [Koodo Reader](https://github.com/koodo-reader/koodo-reader) | koodo-reader | ✅ | ✅ |
+| [LocalSend](https://github.com/localsend/localsend) | localsend | ✅ | ✅ |
+| [mihomo](https://github.com/MetaCubeX/mihomo) | mihomo | ✅ | ✅ |
+| [MQTTX](https://github.com/emqx/MQTTX) | mqttx | ✅ | ✅ |
+| [MusicFree](https://github.com/maotoumao/MusicFreeDesktop) | musicfree | ✅ | |
+| [Neovim/Nvim](https://github.com/neovim/neovim-releases) | neovim | ✅ | |
+| [Obsidian](https://github.com/obsidianmd/obsidian-releases) | obsidian | ✅ | |
+| [OnlyOffice 桌面编辑器](https://github.com/ONLYOFFICE/DesktopEditors) | onlyoffice- | ✅ | |
+| [Pandoc](https://github.com/jgm/pandoc) | pandoc | ✅ | ✅ |
+| [PDFsam Basic](https://github.com/torakiki/pdfsam) | pdfsam-basic | ✅ | |
+| [PeaZip](https://github.com/peazip/PeaZip) | peazip | ✅ | |
+| [Rclone](https://github.com/rclone/rclone) | rclone | ✅ | ✅ |
+| [RustDesk](https://github.com/rustdesk/rustdesk) | rustdesk | ✅ | ✅ |
+| [Simplenote](https://github.com/Automattic/simplenote-electron) | simplenote | ✅ | ✅ |
+| [思源笔记](https://github.com/siyuan-note/siyuan) | siyuan | ✅ | ✅ |
+| [Sparkle](https://github.com/xishang0128/sparkle) | sparkle | ✅ | ✅ |
+| [SPlayer](https://github.com/imsyy/SPlayer) | splayer | ✅ | ✅ |
+| [Systemd manager tui](https://github.com/matheus-git/systemd-manager-tui) | systemd-manager-tui | ✅ | ✅ |
+| [Tabby](https://github.com/Eugeny/tabby) | tabby-terminal | ✅ | ✅ |
+| [TinyGo](https://github.com/tinygo-org/tinygo) | tinygo | ✅ | ✅ |
+| [Tiny RDM](https://github.com/tiny-craft/tiny-rdm) | tinyrdm | ✅ | |
+| [Trippy](https://github.com/fujiapple852/trippy) | trippy | ✅ | |
+| [Ulauncher](https://github.com/Ulauncher/Ulauncher) | ulauncher | ✅ | ✅ |
+| [柚坛工具箱 NT](https://github.com/Uotan-Dev/UotanToolboxNT) | uotantoolbox | ✅ | ✅ |
+| [venera](https://github.com/venera-app/venera) | venera | ✅ | ✅ |
+| [Wave Terminal](https://github.com/wavetermdev/waveterm) | waveterm | ✅ | ✅ |
+| [WinBoat](https://github.com/TibixDev/winboat) | winboat | ✅ | |
+| [Yazi](https://github.com/sxyazi/yazi) | yazi | ✅ | ✅ |
+| [YesPlayMusic](https://github.com/qier222/YesPlayMusic) | yesplaymusic | ✅ | ✅ |
+| [zyfun[ZyPlayer]](https://github.com/Hiram-Wong/ZyPlayer) | zyfun | ✅ | ✅ |
 
 
 ### Gitee
@@ -78,8 +78,8 @@
 
 | 软件名 | 包名 | amd64 | arm64 |
 | ----- | --- | ----- | ----- |
-| [Motrix](https://github.com/agalwood/Motrix) | motrix | ✅ | ✅ |
-| [MarkText](https://github.com/marktext/marktext) | marktext | ✅ | |
-| [Yolx](https://github.com/uiYzzi/Yolx) | yolx | ✅ | |
 | [Flameshot](https://github.com/flameshot-org/flameshot) | flameshot | | ✅ |
-| [SunnyCapturer](https://github.com/XMuli/SunnyCapturer)| sunnycapturer | ✅ | |
+| [MarkText](https://github.com/marktext/marktext) | marktext | ✅ | |
+| [Motrix](https://github.com/agalwood/Motrix) | motrix | ✅ | ✅ |
+| [SunnyCapturer](https://github.com/XMuli/SunnyCapturer) | sunnycapturer | ✅ | |
+| [Yolx](https://github.com/uiYzzi/Yolx) | yolx | ✅ | |
