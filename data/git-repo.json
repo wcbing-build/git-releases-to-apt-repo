@@ -123,7 +123,8 @@
     "dbeaver-ce": {
         "repo": "dbeaver/dbeaver",
         "file_list": {
-            "amd64": "dbeaver-ce_{version}_amd64.deb"
+            "amd64": "dbeaver-ce-{version}-linux-x86_64.deb",
+            "arm64": "dbeaver-ce-{version}-linux-aarch64.deb"
         }
     },
     "flameshot": {
