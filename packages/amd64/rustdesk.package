@@ -1,17 +1,17 @@
 Package: rustdesk
 Architecture: amd64
-Version: 1.4.5
+Version: 1.4.6
 Priority: optional
 Section: net
 Maintainer: rustdesk <info@rustdesk.com>
-Depends: libgtk-3-0, libxcb-randr0, libxdo3, libxfixes3, libxcb-shape0, libxcb-xfixes0, libasound2, libsystemd0, curl, libva2, libva-drm2, libva-x11-2, libgstreamer-plugins-base1.0-0, libpam0g, gstreamer1.0-pipewire
+Depends: libgtk-3-0, libxcb-randr0, libxdo3 | libxdo4, libxfixes3, libxcb-shape0, libxcb-xfixes0, libasound2, libsystemd0, curl, libva2, libva-drm2, libva-x11-2, libgstreamer-plugins-base1.0-0, libpam0g, gstreamer1.0-pipewire
 Recommends: libayatana-appindicator3-1
-Filename: https://github.com/rustdesk/rustdesk/releases/download/1.4.5/rustdesk-1.4.5-x86_64.deb
-Size: 23060404
-MD5sum: c2d53dda06691e9c8687566b157c7f04
-SHA1: 6d26fe057c5a96e1c581bb80fa6719c561e93644
-SHA256: 6117ea2c2f5885830bff64b6b695b2596a2613dc35301539f19ae52747181c83
-SHA512: 0f9e5318acd2c5e51997f6b7971700e5eb92a98e3a86bc0a407e58bc230296ac702e054d5336e4dbcadb7bab8b3ccea409321c4bd24634d85ba9e3f3704aad06
+Filename: https://github.com/rustdesk/rustdesk/releases/download/1.4.6/rustdesk-1.4.6-x86_64.deb
+Size: 23130764
+MD5sum: 79fd067cda039f5d57b199a77b4ca5d5
+SHA1: 784679a7660110d0836b730d01471e618768d1a6
+SHA256: 0da46d7a7b252282ded5323f74319a10c1fa7271001d3b297b3def415c8c8f04
+SHA512: 8b429be164ed2170307e1b85a7417bff9942dfe89897eaeb74815777b6f64d61eec7c68c79235c5f05c7019c5185bad5681855450011da0ef0ad7f3ad246aa3d
 Homepage: https://rustdesk.com
 Description: A remote control software.
 

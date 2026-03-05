@@ -1,16 +1,16 @@
 Package: hiddify
 Architecture: amd64
-Version: 4.0.4+40004
+Version: 4.1.1+40101
 Priority: optional
 Essential: no
 Section: x11
 Maintainer: hiddify <linux@hiddify.com>
 Installed-Size: 6604
-Filename: https://github.com/hiddify/hiddify-app/releases/download/v4.0.4/Hiddify-Debian-x64.deb
-Size: 42460652
-MD5sum: 045cd7cbee2ba19115f9ea0385565646
-SHA1: b67ea8fc91c715618f7bbba0c671af290aa1707f
-SHA256: 42cf176c4cf48a27dd85138c5c892c324c707d56f0e721d5dae5dbccd659620a
-SHA512: d7ca99dab57aca5b13243b8738666ce551e1db9ace8ff61efd5c3bfe4e7541b7349e54428c0904dab808daa341fbed1ef88a292c73823870112ab5f3a3d1ec35
+Filename: https://github.com/hiddify/hiddify-app/releases/download/v4.1.1/Hiddify-Debian-x64.deb
+Size: 42466870
+MD5sum: 747e8548ff2c5cd19d14ae5eceaac9e5
+SHA1: 5d3d682adb0a3fa8e023555785b7b5f38f0b0bb4
+SHA256: e622abd15f7d4410c5655f3fdcd0fa9300944666fa40ac22761f06f93020f10e
+SHA512: badb00286d4682da439a8f8af0034cd80ef55ef6b84b5bd116c6ee723f0b82ce877bfa64061835bec3b01ba30e581255fe3fe15dffcbf0142ecc9064106ed42e
 Description: Cross Platform Multi Protocol Proxy Frontend.
 
