@@ -1,18 +1,18 @@
 Package: siyuan
 Architecture: amd64
-Version: 3.5.9
+Version: 3.5.10
 Priority: optional
 Section: default
 Maintainer: Yunnan Liandi Technology Co., Ltd. <845765@qq.com>
-Installed-Size: 448240
+Installed-Size: 448383
 Depends: libgtk-3-0, libnotify4, libnss3, libxss1, libxtst6, xdg-utils, libatspi2.0-0, libuuid1, libsecret-1-0
 Recommends: libappindicator3-1
-Filename: https://github.com/siyuan-note/siyuan/releases/download/v3.5.9/siyuan-3.5.9-linux.deb
-Size: 144548612
-MD5sum: fd0f678c314c66cdc364523875f7acbb
-SHA1: c7691caa80301676bb27a867cbe958476cf49aa7
-SHA256: 51b43a72e7e06c694bfe4d3ea48001bea3b234d098345c798bc68992ecbdcaa4
-SHA512: 99e491c507c9babe45cbe05599a382efa0cac47728e09e17e9531f1c16523643e5d6d5b50bdd0af9061dc69e3ab798dea8fec57a5dfa5ee9bede9f6369692a3e
+Filename: https://github.com/siyuan-note/siyuan/releases/download/v3.5.10/siyuan-3.5.10-linux.deb
+Size: 144543478
+MD5sum: 00093a025f5f595335ec6f499448be68
+SHA1: 5177d91304d191aedb4c3478d5280f539689d9a4
+SHA256: b89c5b58f8132b3a84bdf321d9e224479937308ee0227664cf24238c9920733f
+SHA512: 747af0ef134dfd45d2ce5f0e3c4a489c5bd5c9ee16b7bf782a4ee7c96959a0122b3108f75a7fe6b6c42272390ec13ac2ea5826706930391260e05dc136d6ddd6
 Homepage: https://b3log.org/siyuan
 Description: 
   Refactor your thinking
