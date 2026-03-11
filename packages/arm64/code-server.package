@@ -1,16 +1,16 @@
 Package: code-server
 Architecture: arm64
-Version: 4.110.0
+Version: 4.110.1
 Priority: optional
 Section: devel
 Maintainer: Joe Previte <joe@coder.com>
-Installed-Size: 475532
-Filename: https://github.com/coder/code-server/releases/download/v4.110.0/code-server_4.110.0_arm64.deb
-Size: 128545962
-MD5sum: 79fcbb78bcf1ccdd6a1feee40a6d0ca0
-SHA1: b7f57b443d65bcaabcd64e65ce4df4d4d5b7152c
-SHA256: 82a32762dbf0ef80ca1ddf45841d5da22fa727fb2e045f81c3ace86937366ac6
-SHA512: e851d3e1f64a9cde5631318fc39a3998c68bcc28f37ac4a0393da9843294913368f7a435279725b30b7aa20addb6dbd811b16f006f9edd3824c767b3b712b780
+Installed-Size: 475533
+Filename: https://github.com/coder/code-server/releases/download/v4.110.1/code-server_4.110.1_arm64.deb
+Size: 128547384
+MD5sum: ce68e4b70a262bd35b04083c99a2a0fc
+SHA1: bfe59e7c4e351a54affb6e519cb29cfedd95cef6
+SHA256: 98f16ceebf3ded6909babfb9ae3507b5604afb2dde0363ca7d8d8b083d9c7ad3
+SHA512: 8172a16e1cf436e9d1b9686be033985d69ee383954a638cab9bacf91333ccf13e298c99adebc6f9711dd771b85f7b2ca64b3f399491562ee113abab22f0c364d
 Homepage: https://github.com/coder/code-server
 Description: Run VS Code in the browser.
 Vendor: Coder
