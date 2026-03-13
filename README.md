@@ -46,6 +46,7 @@
 | [Pandoc](https://github.com/jgm/pandoc) | pandoc | ✅ | ✅ |
 | [PDFsam Basic](https://github.com/torakiki/pdfsam) | pdfsam-basic | ✅ | |
 | [PeaZip](https://github.com/peazip/PeaZip) | peazip | ✅ | |
+| [PowerShell](https://github.com/PowerShell/PowerShell) | powershell | ✅ | |
 | [Rclone](https://github.com/rclone/rclone) | rclone | ✅ | ✅ |
 | [RustDesk](https://github.com/rustdesk/rustdesk) | rustdesk | ✅ | ✅ |
 | [Simplenote](https://github.com/Automattic/simplenote-electron) | simplenote | ✅ | ✅ |
