@@ -108,6 +108,13 @@
             "amd64": "du-dust_{version}-1_amd64.deb"
         }
     },
+    "edrlab.thoriumreader": {
+        "repo": "edrlab/thorium-reader",
+        "file_list": {
+            "amd64": "EDRLab.ThoriumReader_{version}_amd64.deb",
+            "arm64": "EDRLab.ThoriumReader_{version}_arm64.deb"
+        }
+    },
     "fastfetch": {
         "repo": "fastfetch-cli/fastfetch",
         "file_list": {
