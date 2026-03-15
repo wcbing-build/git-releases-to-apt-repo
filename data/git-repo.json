@@ -108,6 +108,12 @@
             "amd64": "du-dust_{version}-1_amd64.deb"
         }
     },
+    "easypostman": {
+        "repo": "lakernote/EasyPostman",
+        "file_list": {
+            "amd64": "easypostman_{version}-1_amd64.deb"
+        }
+    },
     "edrlab.thoriumreader": {
         "repo": "edrlab/thorium-reader",
         "file_list": {

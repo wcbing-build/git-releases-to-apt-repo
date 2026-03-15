@@ -24,6 +24,7 @@
 | [DBeaver](https://github.com/dbeaver/dbeaver) | dbeaver-ce | ✅ | |
 | [draw.io](https://github.com/jgraph/drawio-desktop) | draw.io | ✅ | ✅ |
 | [Dust](https://github.com/bootandy/dust) | du-dust | ✅ | |
+| [EasyPostman](https://github.com/lakernote/EasyPostman) | easypostman | ✅ | |
 | [Thorium Reader](https://github.com/edrlab/thorium-reader) | edrlab.thoriumreader | ✅ | ✅ |
 | [Fastfetch](https://github.com/fastfetch-cli/fastfetch) | fastfetch | ✅ | ✅ |
 | [Flameshot](https://github.com/flameshot-org/flameshot) | flameshot | ✅ | |
