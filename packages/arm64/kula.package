@@ -1,12 +1,12 @@
 Package: kula
 Architecture: arm64
-Version: 0.10.0
+Version: 0.11.0
 Maintainer: c0m4r
-Filename: https://github.com/c0m4r/kula/releases/download/0.10.0/kula-0.10.0-arm64.deb
-Size: 3229892
-MD5sum: 6a6abbb54b227d3b087b783a3694764f
-SHA1: 9f7422e9ef86011b3294b926627023b2f68450ff
-SHA256: 782907562543da7e0fdd0d1fd84dd9c7f314e5733b2edffeb325bb3b919816e9
-SHA512: f4332d73aa82e4232dcd589552141ca23bb48dee11c2af7de17bd60d691947687a7edaa98c0b63cb57ea3dbb7d989cbbae2e7c0e8e12122bff6df6bb6fbea44b
+Filename: https://github.com/c0m4r/kula/releases/download/0.11.0/kula-0.11.0-arm64.deb
+Size: 3253484
+MD5sum: 5c9a6eb44e8dd489b9fde4322f881c0e
+SHA1: cfed7318adcaa582db6394fd216c5a51981b899c
+SHA256: 1552dca1ad6cbbd690b722ae486a4165d1117c64907d657e3d092cb34a46189c
+SHA512: ed4c1d1723d24e9ee9a5ef460d0c29217b9d5de5e4fe78daaa6989e48a6249062a5735515aaba3fed1790976d2755da60491eacaa367dc2d294727225aae93bf
 Description: Lightweight system monitoring daemon.
 
