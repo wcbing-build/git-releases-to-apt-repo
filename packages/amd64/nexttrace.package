@@ -1,15 +1,15 @@
 Package: nexttrace
 Architecture: amd64
-Version: 1.5.0+1
+Version: 1.6.1+1
 Priority: optional
 Section: net
 Maintainer: wcbing <i@wcbing.top>
-Filename: https://github.com/nxtrace/nexttrace-debs/releases/latest/download/./nexttrace_1.5.0+1_amd64.deb
-Size: 8313864
-MD5sum: 3d39a4b99c36af2a599b40acfd8a694b
-SHA1: 8e18fa69a4f42249bccd748216f0b156b0a57387
-SHA256: a7cd51d7f6e5f5b00a4f36716309ffdb42095ca004c8aeffe2147fbdab9d0c6f
-SHA512: a333a1f701e1810b0982b9e9fe863a9ecb6f7d2d3282b26aefa24b687d51e6d28ab6f981b6a7ad483661d05e27a5a20b5603738271133d0c072d0f88a34d1d9a
+Filename: https://github.com/nxtrace/nexttrace-debs/releases/latest/download/./nexttrace_1.6.1+1_amd64.deb
+Size: 8954896
+MD5sum: ff392bd59e8c5d48286753b8a6784bd1
+SHA1: f9e20808adc335dfebf58cba29c1f86e7d6cfaf6
+SHA256: 3a1ae16c1a850df4db107199c83a173e525518a98ed36206099c51c292d628a3
+SHA512: 09c2ba9359d854cf1e42ed40d668e2a8d09703a44bc98fb7448f0bedf40407fe7f2b4048d2b3e33af1ce5dc6b3433b7d879043a8489ea652cc63659b35581001
 Homepage: https://www.nxtrace.org
 Description:  NextTrace, an open source visual route tracking CLI tool
 
