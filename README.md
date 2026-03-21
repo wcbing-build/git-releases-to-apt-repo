@@ -68,6 +68,7 @@
 | [venera](https://github.com/venera-app/venera) | venera | ✅ | ✅ |
 | [Wave Terminal](https://github.com/wavetermdev/waveterm) | waveterm | ✅ | ✅ |
 | [WinBoat](https://github.com/TibixDev/winboat) | winboat | ✅ | |
+| [xmcl](https://github.com/Voxelum/x-minecraft-launcher) | xmcl | ✅ | ✅ |
 | [Yazi](https://github.com/sxyazi/yazi) | yazi | ✅ | ✅ |
 | [YesPlayMusic](https://github.com/qier222/YesPlayMusic) | yesplaymusic | ✅ | ✅ |
 | [zyfun[ZyPlayer]](https://github.com/Hiram-Wong/ZyPlayer) | zyfun | ✅ | ✅ |
