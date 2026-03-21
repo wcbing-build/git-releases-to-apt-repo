@@ -405,6 +405,13 @@
             "amd64": "winboat-{version}-amd64.deb"
         }
     },
+    "xmcl": {
+        "repo": "Voxelum/x-minecraft-launcher",
+        "file_list": {
+            "amd64": "xmcl-{version}-amd64.deb",
+            "arm64": "xmcl-{version}-arm64.deb"
+        }
+    },
     "yazi": {
         "repo": "sxyazi/yazi",
         "file_list": {
@@ -424,13 +431,6 @@
         "file_list": {
             "amd64": "zyfun-linux-{version}-amd64.deb",
             "arm64": "zyfun-linux-{version}-arm64.deb"
-        }
-    },
-    "xmcl": {
-        "repo": "Voxelum/x-minecraft-launcher",
-        "file_list": {
-            "amd64": "xmcl-{version}-amd64.deb",
-            "arm64": "xmcl-{version}-arm64.deb"
         }
     }
 }
